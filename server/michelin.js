@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const axios = require('axios');
 
+const BASE_URL = "https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/";
+
 /**
  * Scrape a given url
  * @param  {String}  url
@@ -11,7 +13,7 @@ const scrapeUrl = async(url, callback) => {
     const { data, status } = response;
     if (status >= 200 && status < 300)
         return callback(data);
-    return null;
+    return [];
 }
 
 /**
@@ -171,29 +173,38 @@ const parseRestaurants = async data => {
     return await Promise.all(promises);
 }
 
-const oneRestaurant = async() => {
-  const url = "https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/1"
-  const restos = await scrapeUrl(url, parseRestaurants);
-  console.log(restos)
+const allRestaurants = async() => {
+  let index = 1;
+  let restaurants = [];
+  while(true){
+      const url = `https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/${index}`;
+      const pageRestaurants = await scrapeUrl(url, parseRestaurants);
+      if(pageRestaurants.length === 0)
+          break
+      restaurants = [...restaurants, ...pageRestaurants];
+      console.log(restaurants[restaurants.length-1], index)
+      index++;
+  }
+  return restaurants;
 }
-oneRestaurant()
 
 /**
  * Get all France located restaurants with either 1Star, 2Stars, 3Stars or BibG distinction
  * @return {Array} restaurants
  */
-const getAll = () => {
-    return [];
-}
+const getAll = async() => await allRestaurant();
 
 /**
  * Get all France located Bib Gourmand restaurants
  * @return {Array} restaurants
  */
-const get = () => {
-  const allRestaurants = getAll();
-  return allRestaurants.filter(r => r.distinction.type === "BIB_GOURMAND");
+const get = async() => {
+  const allRestaurants = await getAll();
+  const bibRestaurants = allRestaurants.filter(r => r.distinction.type === "BIB_GOURMAND");
+  return bibRestaurants;
 };
+
+
 
 
 module.exports = { 
