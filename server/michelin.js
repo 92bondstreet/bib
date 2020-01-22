@@ -1,5 +1,6 @@
 const cheerio = require('cheerio');
 const axios = require('axios');
+const fs = require('fs')
 
 const BASE_URL = "https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/";
 
@@ -158,27 +159,35 @@ const parseRestaurant = data => {
  * @param  {Object} data
  * @return {Array} representing restaurants for those distinctions
  */
-const parseRestaurants = async data => {
+const parseRestaurantsPage = async data => {
     const $ = cheerio.load(data);
-    let promises = [];
+    // if no results on page
+    const noResults = $('.no-results-container');
+    if (noResults.length > 0)
+        return []
+    let restaurants = [];
     for(let i = 0; i < 20; i++){
         const container = $(`div[data-index=${i}]`);
         const nameContainer = container['0'].children[3];
         const nameTag = nameContainer.children[3].children[1].children[0];
         const restaurantUrl = `https://guide.michelin.com${nameTag.parent.attribs['href']}`;
         console.log(restaurantUrl, i)
-        const restaurantData = scrapeUrl(restaurantUrl, parseRestaurant);
-        promises.push(restaurantData)
+        const restaurantData = await scrapeUrl(restaurantUrl, parseRestaurant);
+        restaurants.push(restaurantData)
     }
-    return await Promise.all(promises);
+    return restaurants;
 }
 
+/**
+ * Get all France located restaurants with either 1Star, 2Stars, 3Stars or BibG distinction
+ * @return {Array} restaurants
+ */
 const allRestaurants = async() => {
   let index = 1;
   let restaurants = [];
   while(true){
       const url = `https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/${index}`;
-      const pageRestaurants = await scrapeUrl(url, parseRestaurants);
+      const pageRestaurants = await scrapeUrl(url, parseRestaurantsPage);
       if(pageRestaurants.length === 0)
           break
       restaurants = [...restaurants, ...pageRestaurants];
@@ -189,25 +198,35 @@ const allRestaurants = async() => {
 }
 
 /**
- * Get all France located restaurants with either 1Star, 2Stars, 3Stars or BibG distinction
- * @return {Array} restaurants
- */
-const getAll = async() => await allRestaurant();
-
-/**
  * Get all France located Bib Gourmand restaurants
  * @return {Array} restaurants
  */
 const get = async() => {
-  const allRestaurants = await getAll();
-  const bibRestaurants = allRestaurants.filter(r => r.distinction.type === "BIB_GOURMAND");
+  const totalRestaurants = await allRestaurants();
+  writeJson(totalRestaurants, "allRestaurants.json");
+  const bibRestaurants = totalRestaurants.filter(r => r.distinction.type === "BIB_GOURMAND");
+  writeJson(bibRestaurants, "bibRestaurants.json");
   return bibRestaurants;
 };
 
-
+/**
+ * Writes data arr to json file
+ * @param  {Array} data
+ * @param  {string} filename
+ * @return {None}
+ */
+const writeJson = (data, filename) => {
+  const num_whitespace = 4;
+  const jsonData = JSON.stringify(data, null, num_whitespace)
+  fs.writeFile(filename, jsonData, err => {
+    if(err)
+        console.log(err)
+  });
+}
 
 
 module.exports = { 
-  getAll,
   get
 }
+
+_ = get();
