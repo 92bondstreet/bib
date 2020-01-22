@@ -4,6 +4,9 @@
   "description": "Maître Restaurateur x Bib Gourmand",
   "main": "index.js",
   "repository": "git@github.com:92bondstreet/bib.git",
+  "scripts": {
+    "start": "nodemon ./server/michelin.js"
+  },
   "dependencies": {
     "axios": "^0.19.1",
     "cheerio": "^1.0.0-rc.3"
