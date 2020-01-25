@@ -1,8 +1,22 @@
 const cheerio = require('cheerio');
-const utils = require('utils')
-const { writeJson, scrapeUrl, extractText, extractTrimmed, extractTextTrimmed } = utils;
+const axios = require('axios');
+const utils = require('./utils');
+const { writeJson, extractText, extractTrimmed, extractTextTrimmed } = utils;
 
 const BASE_URL = "https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/";
+
+/**
+ * Scrape a given url
+ * @param  {String}  url
+ * @return {Function} callback with data
+ */
+const scrapeUrl = async(url, callback) => {
+    const response = await axios.get(url);
+    const { data, status } = response;
+    if (status >= 200 && status < 300)
+        return callback(data);
+    return [];
+}
 
 
 /**
@@ -24,7 +38,7 @@ const extractPriceAndCookingType = text => {
  * Extract location from dict of html text
  * @param  {Array} locationKeys
  * @param  {Object} locationContainer
- * @return {string} representing the location of the restaurant
+ * @return {Object} representing the location of the restaurant
  */
 const extractLocation = (locationKeys, locationContainer) => {
     let location;
@@ -36,7 +50,10 @@ const extractLocation = (locationKeys, locationContainer) => {
             break;
         }
     }
-    return location;
+    // converting to object
+    const splitted = location.split(', ');
+    const [street, town, zipCode, ..._] = splitted;
+    return { street, town, zipCode };
 }
 
 /**

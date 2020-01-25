@@ -1,9 +1,44 @@
 const cheerio = require('cheerio');
 const axios = require('axios');
-const utils = require('utils')
-const { writeJson, scrapeUrl, extractText, extractTrimmed, extractTextTrimmed } = utils;
+const utils = require('./utils');
+const iconv = require('iconv-lite');
+const qs = require('querystring');
+const { writeJson, extractText, extractTrimmed, extractTextTrimmed } = utils;
 
-const BASE_URL = "https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/";
+const BASE_URL = "https://www.maitresrestaurateurs.fr/annuaire/ajax/loadresult";
+const BASE_BODY = {
+    request_id: "5e9ed33460320b54b43b5c466a53136b",
+    annuaire_mode: "standard"
+}
+const CONFIG = {
+    headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+    },
+    responseType: 'arraybuffer',
+    responseEncoding: 'binary'
+}
+
+// this converts iso 8859 encodings to readable format
+axios.interceptors.response.use(response => {
+    let ctype = response.headers["content-type"];
+    if (ctype.includes("charset=ISO-8859-1"))
+        response.data = iconv.decode(response.data, 'ISO-8859-1');
+    return response;
+})
+
+/**
+ * Scrape a given url with post request
+ * @param  {String}  url
+ * @return {Function} callback with data
+ */
+const scrapeUrl = async page => {
+    const response = await axios.post(BASE_URL, qs.stringify({ ...BASE_BODY, page }), CONFIG);
+    const { data, status } = response;
+    if (status >= 200 && status < 300)
+        return parseRestaurantsPage(data);
+    return [];
+}
+
 
 /**
  * Parse entire Restaurant page
@@ -43,18 +78,21 @@ const parseRestaurant = data => {
 const parseRestaurantsPage = async data => {
     const $ = cheerio.load(data);
     // if no results on page
-    const noResults = $('.no-results-container');
-    if (noResults.length > 0)
+    const noResults = $('.annuaire_result_list');
+    if (noResults.length === 0)
         return []
     let restaurants = [];
-    for(let i = 0; i < 20; i++){
-        const container = $(`div[data-index=${i}]`);
-        const nameContainer = container['0'].children[3];
-        const nameTag = nameContainer.children[3].children[1].children[0];
-        const restaurantUrl = `https://guide.michelin.com${nameTag.parent.attribs['href']}`;
-        console.log(restaurantUrl, i)
-        const restaurantData = await scrapeUrl(restaurantUrl, parseRestaurant);
-        restaurants.push(restaurantData)
+    const names = $('.single_libel');
+    const infos = $('.single_info3');
+    for(let i = 0; i < 10; i++){
+        let name = extractTrimmed(names[i].children[1].children[0].data)
+        name = name.substr(0, name.length-2);
+        const street = extractTrimmed(infos[i].children[3].children[3].children[0].data);
+        const townZip = extractTrimmed(infos[i].children[3].children[3].children[2].data);
+        const [zipCode, town] = townZip.split(' ');
+        const location = { street, town, zipCode };
+        const phone = extractTrimmed(infos[i].children[5].children[3].children[0].data);
+        restaurants.push({ name, phone, location })
     }
     return restaurants;
 }
@@ -64,16 +102,15 @@ const parseRestaurantsPage = async data => {
  * @return {Array} restaurants
  */
 const allRestaurants = async() => {
-  let index = 1;
+  let page = 1;
   let restaurants = [];
   while(true){
-      const url = `https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/${index}`;
-      const pageRestaurants = await scrapeUrl(url, parseRestaurantsPage);
+      const pageRestaurants = await scrapeUrl(page);
       if(pageRestaurants.length === 0)
           break
       restaurants = [...restaurants, ...pageRestaurants];
-    //   console.log(restaurants[restaurants.length-1], index)
-      index++;
+      console.log(restaurants[restaurants.length-1], page)
+      page++;
   }
   return restaurants;
 }
@@ -88,20 +125,6 @@ const get = async() => {
   return totalRestaurants;
 };
 
-/**
- * Writes data arr to json file
- * @param  {Array} data
- * @param  {string} filename
- * @return {None}
- */
-const writeJson = (data, filename) => {
-  const num_whitespace = 4;
-  const jsonData = JSON.stringify(data, null, num_whitespace)
-  fs.writeFile(filename, jsonData, err => {
-    if(err)
-        console.log(err)
-  });
-}
 
 
 module.exports = { 

@@ -1,18 +1,4 @@
 const fs = require('fs');
-const axios = require('axios');
-
-/**
- * Scrape a given url
- * @param  {String}  url
- * @return {Function} callback with data
- */
-const scrapeUrl = async(url, callback) => {
-    const response = await axios.get(url);
-    const { data, status } = response;
-    if (status >= 200 && status < 300)
-        return callback(data);
-    return [];
-}
 
 const extractText = data => data.text();
 const extractTrimmed = data => data.trim();
@@ -35,7 +21,6 @@ const writeJson = (data, filename) => {
 
 module.exports = {
     writeJson, 
-    scrapeUrl, 
     extractTrimmed,
     extractText,
     extractTextTrimmed 
