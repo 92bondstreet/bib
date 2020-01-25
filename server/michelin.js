@@ -1,21 +1,9 @@
 const cheerio = require('cheerio');
-const axios = require('axios');
-const fs = require('fs')
+const utils = require('utils')
+const { writeJson, scrapeUrl, extractText, extractTrimmed, extractTextTrimmed } = utils;
 
 const BASE_URL = "https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/";
 
-/**
- * Scrape a given url
- * @param  {String}  url
- * @return {Function} callback with data
- */
-const scrapeUrl = async(url, callback) => {
-    const response = await axios.get(url);
-    const { data, status } = response;
-    if (status >= 200 && status < 300)
-        return callback(data);
-    return [];
-}
 
 /**
  * Extract price from unformatted text
@@ -119,10 +107,13 @@ const extractWebsiteUrl = cheerioData => {
         return cheerioData.attr('href');
     return "";
 }
+
+/**
+ * Extract restaurant name 
+ * @param  {Object} cheerioData
+ * @return {string} representing name of restaurant
+ */
 const extractName = cheerioData => cheerioData['0'].children[0].data;
-const extractText = data => data.text();
-const extractTrimmed = data => data.trim();
-const extractTextTrimmed = data => extractText(data).trim();
 
 /**
  * Parse entire Restaurant page
@@ -186,12 +177,12 @@ const allRestaurants = async() => {
   let index = 1;
   let restaurants = [];
   while(true){
-      const url = `https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/${index}`;
+      const url = `${BASE_URL}${index}`;
       const pageRestaurants = await scrapeUrl(url, parseRestaurantsPage);
       if(pageRestaurants.length === 0)
           break
       restaurants = [...restaurants, ...pageRestaurants];
-      console.log(restaurants[restaurants.length-1], index)
+    //   console.log(restaurants[restaurants.length-1], index)
       index++;
   }
   return restaurants;
@@ -203,26 +194,11 @@ const allRestaurants = async() => {
  */
 const get = async() => {
   const totalRestaurants = await allRestaurants();
-  writeJson(totalRestaurants, "allRestaurants.json");
+  writeJson(totalRestaurants, "./server/allRestaurants.json");
   const bibRestaurants = totalRestaurants.filter(r => r.distinction.type === "BIB_GOURMAND");
-  writeJson(bibRestaurants, "bibRestaurants.json");
+  writeJson(bibRestaurants, "./server/bibRestaurants.json");
   return bibRestaurants;
 };
-
-/**
- * Writes data arr to json file
- * @param  {Array} data
- * @param  {string} filename
- * @return {None}
- */
-const writeJson = (data, filename) => {
-  const num_whitespace = 4;
-  const jsonData = JSON.stringify(data, null, num_whitespace)
-  fs.writeFile(filename, jsonData, err => {
-    if(err)
-        console.log(err)
-  });
-}
 
 
 module.exports = { 
