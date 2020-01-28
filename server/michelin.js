@@ -189,6 +189,8 @@ const parseRestaurantsPage = async data => {
     let restaurants = [];
     for(let i = 0; i < 20; i++){
         const container = $(`div[data-index=${i}]`);
+        if(container.length === 0)
+            break;
         const nameContainer = container['0'].children[3];
         const nameTag = nameContainer.children[3].children[1].children[0];
         const michelinUrl = `https://guide.michelin.com${nameTag.parent.attribs['href']}`;
