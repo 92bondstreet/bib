@@ -187,7 +187,8 @@ const parseRestaurantsPage = async data => {
     if (noResults.length > 0)
         return []
     let restaurants = [];
-    for(let i = 0; i < 20; i++){
+    let i = 0;
+    while(true){
         const container = $(`div[data-index=${i}]`);
         if(container.length === 0)
             break;
@@ -196,7 +197,8 @@ const parseRestaurantsPage = async data => {
         const michelinUrl = `https://guide.michelin.com${nameTag.parent.attribs['href']}`;
         console.log(michelinUrl, i);
         const restaurantData = await scrapeUrl(michelinUrl, parseRestaurant);
-        restaurants.push({ ...restaurantData, michelinUrl })
+        restaurants.push({ ...restaurantData, michelinUrl });
+        i++;
     }
     return restaurants;
 }

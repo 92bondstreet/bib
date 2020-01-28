@@ -39,37 +39,6 @@ const scrapeUrl = async page => {
     return [];
 }
 
-
-/**
- * Parse entire Restaurant page
- * @param  {Object} data
- * @return {Object} representing restaurant's data
- */
-const parseRestaurant = data => {
-    const $ = cheerio.load(data);
-    const name = extractName($('.restaurant-details__heading--title'));
-    const locationContainer = $('.restaurant-details__heading--list > li');
-    const locationKeys = Object.keys(locationContainer);
-    let location = extractLocation(locationKeys, locationContainer);
-    const rating = extractAverageRating($('.restaurant-details__heading--rating'));
-    const numberVotes = extractNumVotes($('a[href=#review-section]'));
-    const { price, cookingType } = extractPriceAndCookingType($('.restaurant-details__heading-price')['0'].children[0].data);
-    const phone = extractText($('span[x-ms-format-detection=none]'));
-    const websiteUrl = extractWebsiteUrl($('a[data-event=CTA_website]'));
-    const distinction = extractDistinction($('.restaurant-details__classification--list'));
-    return {
-        name, 
-        cookingType,
-        distinction,
-        websiteUrl,
-        phone,
-        price,
-        numberVotes,
-        rating,
-        location
-    }
-}
-
 /**
  * Parse entire Restaurants for every distinction (1S, 2S, 3S, BIB)
  * @param  {Object} data
@@ -84,15 +53,22 @@ const parseRestaurantsPage = async data => {
     let restaurants = [];
     const names = $('.single_libel');
     const infos = $('.single_info3');
-    for(let i = 0; i < 10; i++){
-        let name = extractTrimmed(names[i].children[1].children[0].data)
-        name = name.substr(0, name.length-2);
-        const street = extractTrimmed(infos[i].children[3].children[3].children[0].data);
-        const townZip = extractTrimmed(infos[i].children[3].children[3].children[2].data);
-        const [zipCode, town] = townZip.split(' ');
-        const location = { street, town, zipCode };
-        const phone = extractTrimmed(infos[i].children[5].children[3].children[0].data);
-        restaurants.push({ name, phone, location })
+    let i = 0;
+    while(true){
+        const nameContainer = names[i];
+        if(nameContainer){
+            let name = extractTrimmed(nameContainer.children[1].children[0].data);
+            name = name.substr(0, name.length-2);
+            const street = extractTrimmed(infos[i].children[3].children[3].children[0].data);
+            const townZip = extractTrimmed(infos[i].children[3].children[3].children[2].data);
+            const [zipCode, town] = townZip.split(' ');
+            const location = { street, town, zipCode };
+            const phone = extractTrimmed(infos[i].children[5].children[3].children[0].data);
+            restaurants.push({ name, phone, location })
+        }
+        else 
+            break;
+        i++;
     }
     return restaurants;
 }

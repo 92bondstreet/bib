@@ -1,0 +1,1336 @@
+[
+    {
+        "name": "La Maison de Marie",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/69334_pro_3.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.lamaisondemarie-laclarte.bzh",
+        "phone": "+33 2 96 49 05 96",
+        "price": {
+            "bottom": "33",
+            "top": "80"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "24 rue Gabriel-Vicaire",
+            "town": "Perros-Guirec",
+            "zipCode": "22700"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/perros-guirec/restaurant/la-maison-de-marie"
+    },
+    {
+        "name": "Le Manoir du Sphinx",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/12376_plat1_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.lemanoirdusphinx.bzh",
+        "phone": "+33 2 96 23 25 42",
+        "price": {
+            "bottom": "25",
+            "top": "50"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "67 chemin de la Messe",
+            "town": "Perros-Guirec",
+            "zipCode": "22700"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/perros-guirec/restaurant/le-manoir-du-sphinx"
+    },
+    {
+        "name": "Le Bellevue",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/8982_pro_43.jpg",
+        "cookingType": " Cuisine classique",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurant-lebellevue.com",
+        "phone": "+33 5 61 76 94 97",
+        "price": {
+            "bottom": "21",
+            "top": "70"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "1 avenue des Pyrénées",
+            "town": "Lacroix-Falgarde",
+            "zipCode": "31120"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/lacroix-falgarde/restaurant/le-bellevue8982"
+    },
+    {
+        "name": "Le Chalet",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/123050_pro_3.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.le-chalet.fr",
+        "phone": "+33 5 61 64 24 31",
+        "price": {
+            "bottom": "32",
+            "top": "60"
+        },
+        "numberVotes": 4,
+        "rating": 4.5,
+        "location": {
+            "street": "4 avenue Durandeau",
+            "town": "Ax-les-Thermes",
+            "zipCode": "09110"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/ax-les-thermes/restaurant/le-chalet123050"
+    },
+    {
+        "name": "La Bonne Auberge",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/221_pro_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.labonneauberge80.com",
+        "phone": "+33 3 22 95 03 33",
+        "price": {
+            "bottom": "32",
+            "top": "64"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "63 Route Nationale",
+            "town": "Dury",
+            "zipCode": "80480"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/hauts-de-france/dury/restaurant/la-bonne-auberge221"
+    },
+    {
+        "name": "Au Vieux Moulin",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/12389_001.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.auvieuxmoulin.eu",
+        "phone": "+33 3 88 70 17 28",
+        "price": {
+            "bottom": "20",
+            "top": "68"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "7 rue du Vieux-Moulin",
+            "town": "Graufthal",
+            "zipCode": "67320"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/graufthal/restaurant/au-vieux-moulin"
+    },
+    {
+        "name": "Au Cheval Blanc",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/12113_pro_5.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.hotel-cheval-blanc.fr",
+        "phone": "+33 3 88 09 55 31",
+        "price": {
+            "bottom": "32",
+            "top": "70"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "11 rue Principale",
+            "town": "Niedersteinbach",
+            "zipCode": "67510"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/niedersteinbach/restaurant/au-cheval-blanc12113"
+    },
+    {
+        "name": "La Closerie des Roses",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9358_ZMR_001.jpg",
+        "cookingType": " Cuisine classique",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.lacloseriedesroses.com",
+        "phone": "+33 2 40 98 33 30",
+        "price": {
+            "bottom": "33",
+            "top": "67"
+        },
+        "numberVotes": 16,
+        "rating": 4.5,
+        "location": {
+            "street": "455 La Haute-Meilleraie",
+            "town": "Varades",
+            "zipCode": "44370"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/pays-de-la-loire/varades/restaurant/la-closerie-des-roses"
+    },
+    {
+        "name": "La Taverne Alsacienne",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2340_001.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.tavernealsacienne-familleguggenbuhl.com",
+        "phone": "+33 3 89 27 08 41",
+        "price": {
+            "bottom": "19",
+            "top": "66"
+        },
+        "numberVotes": 1,
+        "rating": 4,
+        "location": {
+            "street": "99 rue de la République",
+            "town": "Ingersheim",
+            "zipCode": "68040"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/ingersheim/restaurant/la-taverne-alsacienne"
+    },
+    {
+        "name": "Au Chapeau Rouge",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2176_plat1_1.jpg",
+        "cookingType": " Cuisine du terroir",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.auchapeaurouge.fr",
+        "phone": "+33 2 47 98 08 08",
+        "price": {
+            "bottom": "30",
+            "top": "46"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "49 place du Général-de-Gaulle",
+            "town": "Chinon",
+            "zipCode": "37500"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/chinon/restaurant/au-chapeau-rouge"
+    },
+    {
+        "name": "L'Artimon",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/placeholder/iStock-677785016.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "",
+        "phone": "+33 2 51 74 61 60",
+        "price": {
+            "bottom": "21",
+            "top": "45"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "17 rue Jean-du-Plessis",
+            "town": "La Bernerie-en-Retz",
+            "zipCode": "44760"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/pays-de-la-loire/la-bernerie-en-retz/restaurant/l-artimon"
+    },
+    {
+        "name": "Maison Gambert",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/508654_pro_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.maisongambert.com",
+        "phone": "+33 4 75 09 19 85",
+        "price": {
+            "bottom": "33",
+            "top": "60"
+        },
+        "numberVotes": 26,
+        "rating": 4.2,
+        "location": {
+            "street": "2 rue de la Petite-Pirelle",
+            "town": "Tain-l'Hermitage",
+            "zipCode": "26600"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/tain-l-hermitage/restaurant/maison-gambert"
+    },
+    {
+        "name": "L'Embellie",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/8305_pro_6.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurant-lembellie.com",
+        "phone": "+33 3 85 50 81 81",
+        "price": {
+            "bottom": "18",
+            "top": "63"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "le Bourg",
+            "town": "Sainte-Cécile",
+            "zipCode": "71250"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/sainte-ccile/restaurant/l-embellie8305"
+    },
+    {
+        "name": "Auberge de l'Île",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3774_pro_3.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.aubergedelile.fr",
+        "phone": "+33 2 47 58 51 07",
+        "price": {
+            "bottom": "33",
+            "top": "56"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "3 place Bouchard",
+            "town": "L'Île-Bouchard",
+            "zipCode": "37220"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/l-le-bouchard/restaurant/auberge-de-l-ile"
+    },
+    {
+        "name": "La Table",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/63544_pro_5.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.latable.fr",
+        "phone": "+33 4 94 70 55 95",
+        "price": {
+            "bottom": "29",
+            "top": "82"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "1 traverse de Jas",
+            "town": "Les Ribas",
+            "zipCode": "Tourtour"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/tourtour/restaurant/la-table63544"
+    },
+    {
+        "name": "Comptoir des Voyageurs",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/476295_pro_4.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.comptoir-des-voyageurs.fr",
+        "phone": "+33 2 98 91 70 74",
+        "price": {
+            "bottom": "23",
+            "top": "59"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "Place de l'Église",
+            "town": "Locronan",
+            "zipCode": "29180"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/locronan/restaurant/comptoir-des-voyageurs"
+    },
+    {
+        "name": "Voyages des sens",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/504521_001.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.voyagesdessens.com",
+        "phone": "+33 4 74 51 39 94",
+        "price": {
+            "bottom": "14",
+            "top": "69"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "33 rue Principale",
+            "town": "Treffort",
+            "zipCode": "01370"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/treffort/restaurant/voyages-des-sens"
+    },
+    {
+        "name": "La Fleur de Sel",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/121851_pro_7.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurant-fleurdesel.fr",
+        "phone": "+33 4 79 37 49 98",
+        "price": {
+            "bottom": "23",
+            "top": "82"
+        },
+        "numberVotes": 3,
+        "rating": 3.7,
+        "location": {
+            "street": "15 route du Portelin",
+            "town": "Cevins",
+            "zipCode": "73730"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/cevins/restaurant/la-fleur-de-sel121851"
+    },
+    {
+        "name": "Le Jardin",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3646_pro_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.lejardinhaguenau.fr",
+        "phone": "+33 3 88 93 29 39",
+        "price": {
+            "bottom": "21",
+            "top": "63"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "16 rue de la Redoute",
+            "town": "Haguenau",
+            "zipCode": "67500"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/haguenau/restaurant/le-jardin3646"
+    },
+    {
+        "name": "La Colombe",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3769_pro_1.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurantlacolombe.com",
+        "phone": "+33 4 94 35 35 16",
+        "price": {
+            "bottom": "32",
+            "top": "76"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "663 route de Toulon",
+            "town": "Hyères",
+            "zipCode": "83400"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/hyres/restaurant/la-colombe"
+    },
+    {
+        "name": "L'Escargot",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/33146_pro_15.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "",
+        "phone": "+33 2 41 51 20 88",
+        "price": {
+            "bottom": "21",
+            "top": "40"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "30 rue du Maréchal-Leclerc",
+            "town": "Saumur",
+            "zipCode": "49400"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/pays-de-la-loire/saumur/restaurant/l-escargot"
+    },
+    {
+        "name": "Ttotta",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/371122_pro_3.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.ttotta.fr",
+        "phone": "+33 5 59 47 03 55",
+        "price": {
+            "bottom": "15",
+            "top": "47"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "Espace Ibarrondoan",
+            "town": "Saint-Pée-sur-Nivelle",
+            "zipCode": "64310"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/saint-pe-sur-nivelle/restaurant/ttotta"
+    },
+    {
+        "name": "Au Bon Accueil",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/6011_ZMR_001.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.aubonaccueilparis.com",
+        "phone": "+33 1 47 05 46 11",
+        "price": {
+            "bottom": "37",
+            "top": "85"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "14 rue de Monttessuy",
+            "town": "Paris",
+            "zipCode": "75007"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/au-bon-accueil6011"
+    },
+    {
+        "name": "Hôtel de France",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5012_pro_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.hoteldefrance-montmarault.com",
+        "phone": "+33 4 70 07 60 26",
+        "price": {
+            "bottom": "34",
+            "top": "71"
+        },
+        "numberVotes": 7,
+        "rating": 4.9,
+        "location": {
+            "street": "1 rue Marx-Dormoy",
+            "town": "Montmarault",
+            "zipCode": "03390"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/montmarault/restaurant/hotel-de-france5012"
+    },
+    {
+        "name": "Le Vauban",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2163_pro_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.levauban-cherbourg.fr",
+        "phone": "+33 2 33 43 10 11",
+        "price": {
+            "bottom": "25",
+            "top": "62"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "22 quai Caligny",
+            "town": "Cherbourg-en-Cotentin",
+            "zipCode": "50100"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/cherbourg-en-cotentin/restaurant/le-vauban"
+    },
+    {
+        "name": "Au Fil des Saisons",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/8641_pro_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.aufildessaisons.eu",
+        "phone": "+33 3 81 94 17 12",
+        "price": {
+            "bottom": "26",
+            "top": "66"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "3 rue de la Libération",
+            "town": "Étupes",
+            "zipCode": "25460"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/tupes/restaurant/au-fil-des-saisons"
+    },
+    {
+        "name": "Chez Michel",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/122764_001.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurantchezmichel.fr",
+        "phone": "+33 1 44 53 06 20",
+        "price": {
+            "bottom": "35",
+            "top": "38"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "10 rue de Belzunce",
+            "town": "Paris",
+            "zipCode": "75010"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/chez-michel"
+    },
+    {
+        "name": "Le Colvert",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/63526_plat1_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurantlecolvert.com",
+        "phone": "+33 5 63 41 32 47",
+        "price": {
+            "bottom": "15",
+            "top": "55"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "8 rue d'en Boyer",
+            "town": "Saint-Lieux-lès-Lavaur",
+            "zipCode": "81500"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/saint-lieux-ls-lavaur/restaurant/le-colvert63526"
+    },
+    {
+        "name": "L'Atelier",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1185075_pro_11.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurant-perigueux-atelier.com",
+        "phone": "+33 5 53 04 56 71",
+        "price": {
+            "bottom": "24",
+            "top": "69"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "2 rue Voltaire",
+            "town": "Périgueux",
+            "zipCode": "24000"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/prigueux/restaurant/l-atelier1185075"
+    },
+    {
+        "name": "La Ruche",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1183528_pro_2.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.laruche-saintperay.com",
+        "phone": "+33 9 82 40 44 38",
+        "price": {
+            "bottom": "24",
+            "top": "35"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "13 quai du Docteur-Jules-Bouvat",
+            "town": "Saint-Péray",
+            "zipCode": "07130"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/saint-pray/restaurant/la-ruche"
+    },
+    {
+        "name": "Au Bon Accueil",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3941_pro_1.jpg",
+        "cookingType": " Cuisine créative",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.aubonaccueil-normand.com",
+        "phone": "+33 2 33 38 10 04",
+        "price": {
+            "bottom": "22",
+            "top": "62"
+        },
+        "numberVotes": 7,
+        "rating": 4.6,
+        "location": {
+            "street": "23 place St-Michel",
+            "town": "Juvigny-sous-Andaine",
+            "zipCode": "61140"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/juvigny-sous-andaine/restaurant/au-bon-accueil3941"
+    },
+    {
+        "name": "Auberge des Deux Magots",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/465592_plat1_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.aubergedesdeuxmagots.fr",
+        "phone": "+33 2 99 90 60 75",
+        "price": {
+            "bottom": "24",
+            "top": "50"
+        },
+        "numberVotes": 23,
+        "rating": 4.6,
+        "location": {
+            "street": "1 place du Bouffay",
+            "town": "La Roche-Bernard",
+            "zipCode": "56130"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/la-roche-bernard/restaurant/auberge-des-deux-magots"
+    },
+    {
+        "name": "L'Épicurien",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/66531_pro_2.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurantlepicurien.com",
+        "phone": "+33 5 63 53 10 70",
+        "price": {
+            "bottom": "22",
+            "top": "55"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "42 place Jean-Jaurès",
+            "town": "Albi",
+            "zipCode": "81000"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/albi/restaurant/l-epicurien66531"
+    },
+    {
+        "name": "Auberge Pyrénées Cévennes",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5836_pro_2.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.auberge-pyrenees-cevennes.fr",
+        "phone": "+33 1 43 57 33 78",
+        "price": {
+            "bottom": "36",
+            "top": "72"
+        },
+        "numberVotes": 2,
+        "rating": 4,
+        "location": {
+            "street": "106 rue de la Folie-Méricourt",
+            "town": "Paris",
+            "zipCode": "75011"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/auberge-pyrenees-cevennes"
+    },
+    {
+        "name": "La Fleur de Sel",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3731_pro_23.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.lafleurdesel-honfleur.com",
+        "phone": "+33 2 31 89 01 92",
+        "price": {
+            "bottom": "34",
+            "top": "75"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "17 rue Haute",
+            "town": "Honfleur",
+            "zipCode": "14600"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/honfleur/restaurant/la-fleur-de-sel3731"
+    },
+    {
+        "name": "La Merenda",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5452_pro_007.jpg",
+        "cookingType": " Cuisine provençale",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.lamerenda.net",
+        "phone": "",
+        "price": {
+            "bottom": "34",
+            "top": "40"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "4 rue Raoul-Bosio",
+            "town": "Nice",
+            "zipCode": "06000"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/nice/restaurant/la-merenda"
+    },
+    {
+        "name": "Le Rabelais",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/7758_013.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurant-le-rabelais.com",
+        "phone": "+33 4 90 50 84 40",
+        "price": {
+            "bottom": "31",
+            "top": "50"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "8 rue Auguste-Fabre",
+            "town": "Saint-Chamas",
+            "zipCode": "13250"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/saint-chamas/restaurant/le-rabelais"
+    },
+    {
+        "name": "Au Cheval Blanc",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/6937_pro_4.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.auchevalblanc.net",
+        "phone": "+33 3 88 70 17 11",
+        "price": {
+            "bottom": "28",
+            "top": "55"
+        },
+        "numberVotes": 2,
+        "rating": 3.5,
+        "location": {
+            "street": "19 rue Principale",
+            "town": "Graufthal",
+            "zipCode": "67320"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/graufthal/restaurant/au-cheval-blanc6937"
+    },
+    {
+        "name": "Le Quai",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/185587_pro_1.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.maisonchabran.com",
+        "phone": "+33 4 75 07 05 90",
+        "price": {
+            "bottom": "24",
+            "top": "61"
+        },
+        "numberVotes": 12,
+        "rating": 3.8,
+        "location": {
+            "street": "17 rue Joseph-Peala",
+            "town": "Tain-l'Hermitage",
+            "zipCode": "26600"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/tain-l-hermitage/restaurant/le-quai"
+    },
+    {
+        "name": "Le Lancelot",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2173_pro_6.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurantlelancelot.com",
+        "phone": "+33 2 38 32 91 15",
+        "price": {
+            "bottom": "29",
+            "top": "80"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "12 rue des Déportés",
+            "town": "Chilleurs-aux-Bois",
+            "zipCode": "45170"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/chilleurs-aux-bois/restaurant/le-lancelot"
+    },
+    {
+        "name": "Auberge de la Roche",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/placeholder/pic_poilist_default_0.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.auberge-de-la-roche.com",
+        "phone": "+33 2 41 39 72 21",
+        "price": {
+            "bottom": "24",
+            "top": "62"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "10 Route Nationale 23",
+            "town": "Saint-Jean-de-Linières",
+            "zipCode": "49070"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/pays-de-la-loire/saint-jean-de-linires/restaurant/auberge-de-la-roche"
+    },
+    {
+        "name": "Auberge du Moulin",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2212_002.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.aubergedumoulin.org",
+        "phone": "+33 2 35 33 62 76",
+        "price": {
+            "bottom": "33",
+            "top": "63"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "36 rue des Moulins-du-Tot",
+            "town": "Clères",
+            "zipCode": "76690"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/clres/restaurant/auberge-du-moulin"
+    },
+    {
+        "name": "Coteaux et Fourchettes",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/305304_pro_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.coteauxetfourchettes.com",
+        "phone": "+33 4 90 66 35 99",
+        "price": {
+            "bottom": "28",
+            "top": "79"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "Route de Violès",
+            "town": "Cairanne",
+            "zipCode": "84290"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/cairanne/restaurant/coteaux-et-fourchettes"
+    },
+    {
+        "name": "La Griotte",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/197827_pro_10.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.lagriotte.fr",
+        "phone": "+33 3 81 57 17 71",
+        "price": {
+            "bottom": "17",
+            "top": "50"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "3 rue des Cerisiers",
+            "town": "Saules",
+            "zipCode": "25580"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/saules/restaurant/la-griotte"
+    },
+    {
+        "name": "La Maison",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/515197_pro_5.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurant-lamaison-cognac.fr",
+        "phone": "+33 5 45 35 21 77",
+        "price": {
+            "bottom": "34",
+            "top": "86"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "1 rue du 14-Juillet",
+            "town": "Cognac",
+            "zipCode": "16100"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/cognac/restaurant/la-maison"
+    },
+    {
+        "name": "Pomze",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/371410_plat1_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.pomze.com",
+        "phone": "+33 1 42 65 65 83",
+        "price": {
+            "bottom": "37",
+            "top": "64"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "109 boulevard Haussmann",
+            "town": "Paris",
+            "zipCode": "75008"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/pomze"
+    },
+    {
+        "name": "La Part des Anges",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/placeholder/pic_poilist_default_2.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "",
+        "phone": "+33 5 63 51 65 25",
+        "price": {
+            "bottom": "19",
+            "top": "49"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "7 rue d'Empare",
+            "town": "Castres",
+            "zipCode": "81100"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/castres/restaurant/la-part-des-anges454760"
+    },
+    {
+        "name": "Le Bouche à Oreille",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/531147_plat1_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "",
+        "phone": "+33 2 35 45 44 60",
+        "price": {
+            "bottom": "25",
+            "top": "44"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "19 rue Paul-Doumer",
+            "town": "Le Havre",
+            "zipCode": "76600"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/le-havre/restaurant/le-bouche-a-oreille531147"
+    },
+    {
+        "name": "Histoire Ancienne",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1558_pro_8.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.histoire-ancienne.com",
+        "phone": "+33 3 21 34 11 20",
+        "price": {
+            "bottom": "23",
+            "top": "63"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "20 rue Royale",
+            "town": "Calais",
+            "zipCode": "62100"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/hauts-de-france/calais/restaurant/histoire-ancienne"
+    },
+    {
+        "name": "Au Colombier",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/172869_pro_2.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.aucolombier.com",
+        "phone": "+33 4 74 67 04 68",
+        "price": {
+            "bottom": "26",
+            "top": "69"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "126 allée Colombier",
+            "town": "Anse",
+            "zipCode": "69480"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/anse/restaurant/au-colombier"
+    },
+    {
+        "name": "L'Arum",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1000375_pro_12.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "",
+        "phone": "+33 4 83 99 42 04",
+        "price": {
+            "bottom": "31",
+            "top": "60"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "21 avenue Joseph-Clotis",
+            "town": "Hyères",
+            "zipCode": "83400"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/hyres/restaurant/l-arum"
+    },
+    {
+        "name": "M Restaurant",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/235634_ZMR_001.jpg",
+        "cookingType": " Cuisine du marché",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.mrestaurant.fr",
+        "phone": "+33 4 78 89 55 19",
+        "price": {
+            "bottom": "29",
+            "top": "39"
+        },
+        "numberVotes": 1,
+        "rating": 5,
+        "location": {
+            "street": "47 avenue Foch",
+            "town": "Lyon",
+            "zipCode": "69006"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/lyon/restaurant/m-restaurant"
+    },
+    {
+        "name": "Le Dauphin",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/10467_ZMR_001.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.le-dauphin-normandie.fr",
+        "phone": "+33 2 31 86 22 26",
+        "price": {
+            "bottom": "26",
+            "top": "90"
+        },
+        "numberVotes": 11,
+        "rating": 3.9,
+        "location": {
+            "street": "29 rue Gemare",
+            "town": "Caen",
+            "zipCode": "14000"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/caen/restaurant/le-dauphin10467"
+    },
+    {
+        "name": "La Maison Carrier",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1944_pro_1.jpg",
+        "cookingType": " Cuisine régionale",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.hameaualbert.fr",
+        "phone": "+33 4 50 53 00 03",
+        "price": {
+            "bottom": "33",
+            "top": "72"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "44 route du Bouchet",
+            "town": "Chamonix-Mont-Blanc",
+            "zipCode": "74400"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/chamonix-mont-blanc/restaurant/la-maison-carrier"
+    },
+    {
+        "name": "Les Capucins",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/10228_ZMR_001.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.hotellescapucins.com",
+        "phone": "+33 3 84 28 04 60",
+        "price": {
+            "bottom": "23",
+            "top": "65"
+        },
+        "numberVotes": 7,
+        "rating": 4.7,
+        "location": {
+            "street": "20 faubourg de Montbéliard",
+            "town": "Belfort",
+            "zipCode": "90000"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/belfort/restaurant/les-capucins"
+    },
+    {
+        "name": "L'Arche de Meslay",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9064_pro_1.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.larchedemeslay.fr",
+        "phone": "+33 2 47 29 00 07",
+        "price": {
+            "bottom": "23",
+            "top": "75"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "14 rue des Ailes",
+            "town": "Parçay-Meslay",
+            "zipCode": "37210"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/paray-meslay/restaurant/l-arche-de-meslay"
+    },
+    {
+        "name": "Ar Maen Hir",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1024395_pro_3.jpg",
+        "cookingType": " Cuisine moderne",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "",
+        "phone": "+33 2 56 10 18 37",
+        "price": {
+            "bottom": "19",
+            "top": "45"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "15 bis rue du Prieuré",
+            "town": "Locronan",
+            "zipCode": "29180"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/locronan/restaurant/ar-maen-hir"
+    },
+    {
+        "name": "Le Tire Bouchon",
+        "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/236873_ZMR_001.jpg",
+        "cookingType": " Cuisine traditionnelle",
+        "distinction": {
+            "type": "BIB_GOURMAND",
+            "description": "Nos meilleurs rapports qualité-prix"
+        },
+        "websiteUrl": "http://www.restaurantalorient.com",
+        "phone": "+33 2 97 84 71 92",
+        "price": {
+            "bottom": "22",
+            "top": "70"
+        },
+        "numberVotes": 0,
+        "rating": 0,
+        "location": {
+            "street": "45 rue Jules-le-Grand",
+            "town": "Lorient",
+            "zipCode": "56100"
+        },
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/lorient/restaurant/le-tire-bouchon"
+    }
+]

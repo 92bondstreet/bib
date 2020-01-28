@@ -261,15 +261,6 @@
         }
     },
     {
-        "name": "AUBERGE DU CHEVAL BLANC",
-        "phone": "02 31 63 03 28",
-        "location": {
-            "street": "44 rue Saint Pierre",
-            "town": "CRÈVECOEUR-EN-AUGE",
-            "zipCode": "14340"
-        }
-    },
-    {
         "name": "LE PONT SAINT ETIENNE",
         "phone": "05 55 30 52 54",
         "location": {
@@ -519,15 +510,6 @@
             "street": "40 rue portail neuf",
             "town": "SAINT-TROPEZ",
             "zipCode": "83990"
-        }
-    },
-    {
-        "name": "TROPEZINA",
-        "phone": "04 94 97 36 78",
-        "location": {
-            "street": "1289 les Aiguiens",
-            "town": "RAMATUELLE",
-            "zipCode": "83350"
         }
     },
     {
@@ -1476,6 +1458,15 @@
         }
     },
     {
+        "name": "ORCHIDEA",
+        "phone": "05 90 22 32 38",
+        "location": {
+            "street": "12 lotissement du Golf",
+            "town": "ST",
+            "zipCode": "97118"
+        }
+    },
+    {
         "name": "LA MERE GERMAINE",
         "phone": "04 93 01 71 39",
         "location": {
@@ -1689,6 +1680,15 @@
             "street": "5 place du marché aux fruits",
             "town": "CONDRIEU",
             "zipCode": "69420"
+        }
+    },
+    {
+        "name": "L'AIR DU TEMPS",
+        "phone": "02 32 55 89 98",
+        "location": {
+            "street": "38 rue Georges Joignet",
+            "town": "BÉZU-SAINT-ÉLOI",
+            "zipCode": "27660"
         }
     },
     {
@@ -1935,6 +1935,14 @@
         }
     },
     {
+        "name": "",
+        "phone": "",
+        "location": {
+            "street": "",
+            "zipCode": ""
+        }
+    },
+    {
         "name": "LE PANORAMIC",
         "phone": "04 79 01 11 43",
         "location": {
@@ -2022,15 +2030,6 @@
             "street": "rue de la 1ère armée française",
             "town": "RIQUEWIHR",
             "zipCode": "68340"
-        }
-    },
-    {
-        "name": "AS HÔTEL-RESTAURANT LE PIQUE  ASSIETTE",
-        "phone": "02 38 52 14 14",
-        "location": {
-            "street": "29 Rue de Chartres",
-            "town": "ARTENAY",
-            "zipCode": "45410"
         }
     },
     {
@@ -3480,6 +3479,15 @@
             "street": "20 rue de la Boucherie",
             "town": "LIMOGES",
             "zipCode": "87000"
+        }
+    },
+    {
+        "name": "LES GOURMANDISES",
+        "phone": "03 29 37 21 85",
+        "location": {
+            "street": "17 rue du Général Leclerc",
+            "town": "ÉPINAL",
+            "zipCode": "88000"
         }
     },
     {
@@ -8351,12 +8359,12 @@
         }
     },
     {
-        "name": "RESTAURANT DE LA TABLE D'IGÉ",
-        "phone": "03 85 33 33 99",
+        "name": "L'EMBARCADERE",
+        "phone": "04 74 07 07 07",
         "location": {
-            "street": "252 rue du Château",
-            "town": "IGÉ",
-            "zipCode": "71960"
+            "street": "15 avenue de la Place",
+            "town": "JASSANS-RIOTTIER",
+            "zipCode": "01480"
         }
     },
     {
@@ -11888,6 +11896,15 @@
         }
     },
     {
+        "name": "LE GRIGNOT",
+        "phone": "02 35 43 62 07",
+        "location": {
+            "street": "53 rue racine",
+            "town": "LE",
+            "zipCode": "76600"
+        }
+    },
+    {
         "name": "BISTROT DE LA GARE",
         "phone": "02 41 71 29 60",
         "location": {
@@ -13307,15 +13324,6 @@
             "street": "1 Place de la Fontaine",
             "town": "LE",
             "zipCode": "RESTAURANT"
-        }
-    },
-    {
-        "name": "Netanswer",
-        "phone": "0606060606",
-        "location": {
-            "street": "39 rue d'Aboukir",
-            "town": "PARIS",
-            "zipCode": "75002"
         }
     },
     {

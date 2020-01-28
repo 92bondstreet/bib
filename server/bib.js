@@ -1,10 +1,17 @@
 const utils = require('./utils');
 const { readJson, writeJson } = utils;
 
-const THRESHOLD_NAME = 0.85;
-const THRESHOLD_PHONE = 0.95;
-const THRESHOLD_ADRESS = 0.8;
+const THRESHOLD_NAME = 0.9;
+const THRESHOLD_PHONE = 0;
+const THRESHOLD_ADRESS = 0.9;
 
+
+/**
+ * Computes an edit distance between two strings
+ * @param {string} first string
+ * @param {string} second string
+ * @return {double} distance between s1 and s2
+ */
 const editDistance = (s1, s2) => {
   let costs = new Array();
   for (let i = 0; i <= s1.length; i++) {
@@ -27,7 +34,12 @@ const editDistance = (s1, s2) => {
   }
   return costs[s2.length];
 }
-
+/**
+ * Evaluates a distance between two strings
+ * @param {string} first string
+ * @param {string} second string
+ * @return {double} distance between the two strings
+ */
 const distance = (s1, s2) => {
     let longer = s1;
     let shorter = s2;
@@ -41,8 +53,20 @@ const distance = (s1, s2) => {
     return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
 }
 
+/**
+ * Return valid string if property is not defined
+ * @return {string} defined string
+ */
 const validate = str => str ? str : "";
 
+
+/**
+ * Fits maitre restaurant to standard representation (lowercase etc)
+ * @param {string} name
+ * @param {string} phone
+ * @param {Object} location
+ * @return {Object} Formatted object
+ */
 const normalizeMaitreRestaurant = (name, phone, location) => {
     const formattedMaitreName = validate(name).toLowerCase().replace(/\s+/g, '');
     const formattedMaitrePhone = validate(phone);
@@ -54,6 +78,13 @@ const normalizeMaitreRestaurant = (name, phone, location) => {
     return { formattedMaitreName, formattedMaitrePhone, formattedMaitreAdress };
 }
 
+/**
+ * Fits bib restaurant to standard representation (lowercase etc)
+ * @param {string} name
+ * @param {string} phone
+ * @param {Object} location
+ * @return {Object} Formatted object
+ */
 const normalizeBibRestaurant = (name, phone, location) => {
     const formattedBibName = validate(name).toLowerCase().replace(/\s+/g, '');
     let formattedBibPhone = validate(phone).substr(4, phone.length-4);
@@ -72,35 +103,34 @@ const normalizeBibRestaurant = (name, phone, location) => {
  */
 const getGoldenRestaurants = (bibRestaurants, maitreRestaurants) => {
     let results = [];
-    bibRestaurants.forEach(bib_r => {
+    bibRestaurants.forEach((bib_r, i) => {
+        console.log(i);
         const { name, phone, location } = bib_r;
         const { formattedBibName, formattedBibPhone, formattedBibAdress } = normalizeBibRestaurant(name, phone, location);
-        maitreRestaurants.forEach(mai_r => {
+        for(let j = 0; j < maitreRestaurants.length; j++){
+            const mai_r = maitreRestaurants[j];
             const { name, phone, location } = mai_r;
             const { formattedMaitreName, formattedMaitrePhone, formattedMaitreAdress } = normalizeMaitreRestaurant(name, phone, location);
-            console.log(formattedBibName, formattedBibPhone, formattedBibAdress);
-            console.log(formattedMaitreName, formattedMaitrePhone, formattedMaitreAdress);
-            console.log(distance(formattedBibAdress, formattedMaitreAdress))
             if(distance(formattedBibName, formattedMaitreName) >= THRESHOLD_NAME
             && (distance(formattedBibPhone, formattedMaitrePhone) >= THRESHOLD_PHONE
             || distance(formattedBibAdress, formattedMaitreAdress) >= THRESHOLD_ADRESS)){
                 results.push(bib_r)
-                break
+                break;
             }
-        })
+        }
     })
     return results;
 }
 
 /**
- * Get all France located Bib Gourmand restaurants
+ * Get all France located Bib Gourmand restaurants and writes them to json file
  * @return {Array} restaurants
  */
 const get = async() => {
   const bibRestaurants = readJson("./server/bibRestaurants.json");
   const maitreRestaurants = readJson("./server/maitreRestaurants.json");
   const goldenRestaurants = getGoldenRestaurants(bibRestaurants, maitreRestaurants);
-  writeJson(goldenRestaurants, "./server/goldenRestaurants");
+  writeJson(goldenRestaurants, "./server/goldenRestaurants.json");
   return goldenRestaurants;
 };
 
