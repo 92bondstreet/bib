@@ -2,20 +2,21 @@ const cheerio = require('cheerio');
 const axios = require('axios');
 const utils = require('./utils');
 const fs = require('fs');
-const { writeJson, extractText, extractTrimmed, extractTextTrimmed } = utils;
+const { writeJson, extractText, extractTrimmed, extractTextTrimmed, trimSpace } = utils;
 
-const BASE_URL = "https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/";
+const SEARCH_URL = "https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/";
+const BASE_URL = "https://guide.michelin.com";
 
 /**
  * Scrape a given url
  * @param  {String}  url
- * @return {Function} callback with data
+ * @return {Object} data returned by axios response
  */
-const scrapeUrl = async(url, callback) => {
+const scrapeUrl = async(url) => {
     const response = await axios.get(url);
     const { data, status } = response;
     if (status >= 200 && status < 300)
-        return callback(data);
+        return data;
     return [];
 }
 
@@ -31,9 +32,11 @@ const extractPriceAndCookingType = text => {
     priceText = priceText.replace(/\s+/g, " ");
     cookingType = cookingType.replace(/\s+/g, " ");
     priceText = priceText.substr(0, priceText.length-1);
-    const [bottom, _, top] = priceText.split(' ');
+    let [bottom, _, top] = priceText.split(' ');
+    bottom = parseInt(bottom);
+    top = parseInt(top);
     const price = { bottom, top };
-    cookingType = cookingType.substr(0, cookingType.length);
+    cookingType = cookingType.substr(1, cookingType.length-1);
     return { price, cookingType };
 }
 
@@ -186,21 +189,33 @@ const parseRestaurantsPage = async data => {
     const noResults = $('.no-results-container');
     if (noResults.length > 0)
         return []
+    const cards = $('.js-map');
     let restaurants = [];
-    let i = 0;
-    while(true){
-        const container = $(`div[data-index=${i}]`);
-        if(container.length === 0)
-            break;
-        const nameContainer = container['0'].children[3];
-        const nameTag = nameContainer.children[3].children[1].children[0];
-        const michelinUrl = `https://guide.michelin.com${nameTag.parent.attribs['href']}`;
+    for(let i = 0; i < cards.length; i++){
+        const elm = cards[i];
+        const websiteExtentedUrl = $(elm).children('a').attr('href');
+        const michelinUrl = BASE_URL+websiteExtentedUrl;
         console.log(michelinUrl, i);
-        const restaurantData = await scrapeUrl(michelinUrl, parseRestaurant);
-        restaurants.push({ ...restaurantData, michelinUrl });
-        i++;
+        const data = await scrapeUrl(michelinUrl);
+        const restaurantData = parseRestaurant(data);
+        restaurants.push({ ...restaurantData, michelinUrl })
     }
     return restaurants;
+}
+
+/**
+ * Get all France located restaurants with either 1Star, 2Stars, 3Stars or BibG distinction
+ * @param {string} baseUrl
+ * @return {number} the number of pages for the restaurants
+ */
+const getNumPages = async baseUrl => {
+    const data = await scrapeUrl(baseUrl);
+    const $ = cheerio.load(data);
+    const pageText = extractTextTrimmed($('.search-results__count').find('h1'));
+    const spaceSplitted = pageText.split(' ');
+    const [_, restaurantsPerPage] = spaceSplitted[0].split('-');
+    const totalRestaurants = trimSpace(spaceSplitted[spaceSplitted.length-2]);
+    return Math.ceil(parseInt(totalRestaurants) / parseInt(restaurantsPerPage))
 }
 
 /**
@@ -210,11 +225,11 @@ const parseRestaurantsPage = async data => {
 const allRestaurants = async() => {
   let index = 1;
   let restaurants = [];
-  while(true){
-      const url = `${BASE_URL}${index}`;
-      const pageRestaurants = await scrapeUrl(url, parseRestaurantsPage);
-      if(pageRestaurants.length === 0)
-          break
+  const numPages = await getNumPages(`${SEARCH_URL}${index}`);
+  while(index <= numPages){
+      const url = `${SEARCH_URL}${index}`;
+      const data = await scrapeUrl(url);
+      const pageRestaurants = await parseRestaurantsPage(data);
       restaurants = [...restaurants, ...pageRestaurants];
       console.log(restaurants[restaurants.length-1], index)
       index++;
@@ -226,8 +241,9 @@ const allRestaurants = async() => {
  * Get all France located Bib Gourmand restaurants
  * @return {Array} restaurants
  */
-const get = async(withWrite=false) => {
+const get = async(withWrite=true) => {
   const totalRestaurants = await allRestaurants();
+  // filter constant
   const bibRestaurants = totalRestaurants.filter(r => r.distinction.type === "BIB_GOURMAND");
   if(withWrite){
         writeJson(totalRestaurants, "./server/allRestaurants.json");

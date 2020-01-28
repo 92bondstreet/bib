@@ -1,5 +1,5 @@
 const utils = require('./utils');
-const { readJson, writeJson } = utils;
+const { readJson, writeJson, trimSpace } = utils;
 
 const THRESHOLD_NAME = 0.9;
 const THRESHOLD_PHONE = 1;
@@ -68,12 +68,12 @@ const validate = str => str ? str : "";
  * @return {Object} Formatted object
  */
 const normalizeMaitreRestaurant = (name, phone, location) => {
-    const formattedMaitreName = validate(name).toLowerCase().replace(/\s+/g, '');
+    const formattedMaitreName = trimSpace(validate(name).toLowerCase());
     const formattedMaitrePhone = validate(phone);
     const { town: t, street: s, zipCode: z } = location;
-    const town = validate(t).toLowerCase().replace(/\s+/g, '');
-    const street = validate(s).toLowerCase().replace(/\s+/g, '');
-    const zipCode = validate(z).toLowerCase().replace(/\s+/g, '');
+    const town = trimSpace(validate(t).toLowerCase());
+    const street = trimSpace(validate(s).toLowerCase());
+    const zipCode = trimSpace(validate(z).toLowerCase());
     const formattedMaitreAdress = town+street+zipCode;
     return { formattedMaitreName, formattedMaitrePhone, formattedMaitreAdress };
 }
@@ -86,13 +86,13 @@ const normalizeMaitreRestaurant = (name, phone, location) => {
  * @return {Object} Formatted object
  */
 const normalizeBibRestaurant = (name, phone, location) => {
-    const formattedBibName = validate(name).toLowerCase().replace(/\s+/g, '');
+    const formattedBibName = trimSpace(validate(name).toLowerCase());
     let formattedBibPhone = validate(phone).substr(4, phone.length-4);
     formattedBibPhone = "0"+formattedBibPhone;
     const { town: t, street: s, zipCode: z } = location;
-    const town = validate(t).toLowerCase().replace(/\s+/g, '');
-    const street = validate(s).toLowerCase().replace(/\s+/g, '');
-    const zipCode = validate(z).toLowerCase().replace(/\s+/g, '');
+    const town = trimSpace(validate(t).toLowerCase());
+    const street = trimSpace(validate(s).toLowerCase());
+    const zipCode = trimSpace(validate(z).toLowerCase());
     const formattedBibAdress = town+street+zipCode;
     return { formattedBibName, formattedBibPhone, formattedBibAdress };
 }
@@ -111,8 +111,8 @@ const getGoldenRestaurants = (bibRestaurants, maitreRestaurants) => {
             const { name, phone, location } = mai_r;
             const { formattedMaitreName, formattedMaitrePhone, formattedMaitreAdress } = normalizeMaitreRestaurant(name, phone, location);
             // if phone is the same, or address and name have respectively a 80% and 90% correspondance
-            if(distance(formattedBibPhone, formattedMaitrePhone) == THRESHOLD_PHONE
-            || (distance(formattedBibName, formattedMaitreName) >= THRESHOLD_NAME
+            if(distance(formattedBibName, formattedMaitreName) >= THRESHOLD_NAME 
+            || (distance(formattedBibPhone, formattedMaitrePhone) >= THRESHOLD_PHONE
             && distance(formattedBibAdress, formattedMaitreAdress) >= THRESHOLD_ADRESS)){
                 results.push(bib_r)
                 break;
@@ -137,8 +137,20 @@ const get = async(withWrite=false) => {
 
 
 
+
+
 module.exports = { 
   get
 }
 
 _ = get();
+
+
+
+
+
+
+
+
+
+

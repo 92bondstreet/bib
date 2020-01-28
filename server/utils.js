@@ -20,6 +20,13 @@ const writeJson = (data, filename) => {
 }
 
 /**
+ * Trim in between space in a string
+ * @param  {string} string to trim in between
+ * @return  {string} trimmed string
+ */
+const trimSpace = str => str.replace(/\s+/g, "");
+
+/**
  * Reads json file to data arr
  * @param  {string} filename
  * @return  {Array} data
@@ -31,5 +38,6 @@ module.exports = {
     readJson,
     extractTrimmed,
     extractText,
+    trimSpace,
     extractTextTrimmed 
 }

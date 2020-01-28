@@ -29,13 +29,13 @@ axios.interceptors.response.use(response => {
 /**
  * Scrape a given url with post request
  * @param  {String}  url
- * @return {Function} callback with data
+ * @return {Object} data
  */
 const scrapeUrl = async page => {
     const response = await axios.post(BASE_URL, qs.stringify({ ...BASE_BODY, page }), CONFIG);
     const { data, status } = response;
     if (status >= 200 && status < 300)
-        return parseRestaurantsPage(data);
+        return data;
     return [];
 }
 
@@ -44,7 +44,7 @@ const scrapeUrl = async page => {
  * @param  {Object} data
  * @return {Array} representing restaurants for those distinctions
  */
-const parseRestaurantsPage = async data => {
+const parseRestaurantsPage = data => {
     const $ = cheerio.load(data);
     // if no results on page
     const noResults = $('.annuaire_result_list');
@@ -81,7 +81,8 @@ const allRestaurants = async() => {
   let page = 1;
   let restaurants = [];
   while(true){
-      const pageRestaurants = await scrapeUrl(page);
+      const data = await scrapeUrl(page);
+      const pageRestaurants = parseRestaurantsPage(data);
       if(pageRestaurants.length === 0)
           break
       restaurants = [...restaurants, ...pageRestaurants];
@@ -95,7 +96,7 @@ const allRestaurants = async() => {
  * Get all France located Bib Gourmand restaurants
  * @return {Array} restaurants
  */
-const get = async(withWrite=false) => {
+const get = async(withWrite=true) => {
   const totalRestaurants = await allRestaurants();
   if(withWrite)
         writeJson(totalRestaurants, "./server/maitreRestaurants.json");
@@ -109,3 +110,4 @@ module.exports = {
 }
 
 _ = get();
+
