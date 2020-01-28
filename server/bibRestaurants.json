@@ -1,7 +1,7 @@
 [
     {
         "name": "La Table du Sommelier",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -19,7 +19,7 @@
     },
     {
         "name": "Au Bouchon Breton",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -37,7 +37,7 @@
     },
     {
         "name": "Les Jardins du Léman",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -55,7 +55,7 @@
     },
     {
         "name": "La Maison de Marie",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -73,7 +73,7 @@
     },
     {
         "name": "Auberge de la Clue",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -91,7 +91,7 @@
     },
     {
         "name": "La Récré",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -109,7 +109,7 @@
     },
     {
         "name": "Le Cèpe",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -127,7 +127,7 @@
     },
     {
         "name": "Restaurant de France",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -145,7 +145,7 @@
     },
     {
         "name": "Athome",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -163,7 +163,7 @@
     },
     {
         "name": "So",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -181,7 +181,7 @@
     },
     {
         "name": "La Table du Pouyaud",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -199,7 +199,7 @@
     },
     {
         "name": "Le Jardin Les Crayères",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -217,7 +217,7 @@
     },
     {
         "name": "Auberge de la Brenne",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -235,7 +235,7 @@
     },
     {
         "name": "Pierre & Jean",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -253,7 +253,7 @@
     },
     {
         "name": "Racines by Daniel Gallacher",
-        "cookingType": " Cuisine créative",
+        "cookingType": "Cuisine créative",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -271,7 +271,7 @@
     },
     {
         "name": "Les Millésimes",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -289,7 +289,7 @@
     },
     {
         "name": "La Baie d'Halong",
-        "cookingType": " Cuisine vietnamienne",
+        "cookingType": "Cuisine vietnamienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -307,7 +307,7 @@
     },
     {
         "name": "Auberge de la Baraque",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -325,7 +325,7 @@
     },
     {
         "name": "Richer",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -343,7 +343,7 @@
     },
     {
         "name": "La Table d'Arthur R",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -361,7 +361,7 @@
     },
     {
         "name": "Les Jardins de l'Acropolis",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -379,7 +379,7 @@
     },
     {
         "name": "Lougolin",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -397,7 +397,7 @@
     },
     {
         "name": "L'Oxygène",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -415,7 +415,7 @@
     },
     {
         "name": "Le Beauvoir",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -433,7 +433,7 @@
     },
     {
         "name": "B2K6",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -451,7 +451,7 @@
     },
     {
         "name": "L'Ormeau",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -469,7 +469,7 @@
     },
     {
         "name": "Téjérina-Hôtel de la Place",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -487,7 +487,7 @@
     },
     {
         "name": "DZ'envies",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -505,7 +505,7 @@
     },
     {
         "name": "Le 11 Bistrot Gourmand",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -523,7 +523,7 @@
     },
     {
         "name": "Le Petit Paris",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -541,7 +541,7 @@
     },
     {
         "name": "Le Bistro des Glycines",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -559,7 +559,7 @@
     },
     {
         "name": "La Table 101",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -577,7 +577,7 @@
     },
     {
         "name": "L'Îlot Vert",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -595,7 +595,7 @@
     },
     {
         "name": "Côté Toqués",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -613,7 +613,7 @@
     },
     {
         "name": "Côté Mer",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -631,7 +631,7 @@
     },
     {
         "name": "L'Auberge du Pont des Pierres",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -649,7 +649,7 @@
     },
     {
         "name": "Briket' Bistrot",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -667,7 +667,7 @@
     },
     {
         "name": "La Vieille Forge",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -685,7 +685,7 @@
     },
     {
         "name": "Minami",
-        "cookingType": " Cuisine japonaise",
+        "cookingType": "Cuisine japonaise",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -703,7 +703,7 @@
     },
     {
         "name": "Le Manoir du Sphinx",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -721,7 +721,7 @@
     },
     {
         "name": "Chez John",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -739,7 +739,7 @@
     },
     {
         "name": "La Verdoyante",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -757,7 +757,7 @@
     },
     {
         "name": "Gaïa",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -775,7 +775,7 @@
     },
     {
         "name": "Etsi",
-        "cookingType": " Cuisine grecque",
+        "cookingType": "Cuisine grecque",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -793,7 +793,7 @@
     },
     {
         "name": "Bellavista",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -811,7 +811,7 @@
     },
     {
         "name": "Racine",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -829,7 +829,7 @@
     },
     {
         "name": "Julien",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -847,7 +847,7 @@
     },
     {
         "name": "Madame Jeanne",
-        "cookingType": " Cuisine méditerranéenne",
+        "cookingType": "Cuisine méditerranéenne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -865,7 +865,7 @@
     },
     {
         "name": "La Vieille Forge",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -883,7 +883,7 @@
     },
     {
         "name": "Le Bellevue",
-        "cookingType": " Cuisine classique",
+        "cookingType": "Cuisine classique",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -901,7 +901,7 @@
     },
     {
         "name": "Le Chalet",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -919,7 +919,7 @@
     },
     {
         "name": "Le Rendez-vous des Gourmets",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -937,7 +937,7 @@
     },
     {
         "name": "Campagne, Vignes et Gourmandises",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -955,7 +955,7 @@
     },
     {
         "name": "La Maison de Kerdiès",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -973,7 +973,7 @@
     },
     {
         "name": "L'Antre Amis",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -991,7 +991,7 @@
     },
     {
         "name": "Le Bistro Chapouton",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1009,7 +1009,7 @@
     },
     {
         "name": "Les 7",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1027,7 +1027,7 @@
     },
     {
         "name": "Au Jardin d'Eden",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1045,7 +1045,7 @@
     },
     {
         "name": "Au Rendez-vous des Amis",
-        "cookingType": " Cuisine provençale",
+        "cookingType": "Cuisine provençale",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1063,7 +1063,7 @@
     },
     {
         "name": "La Grillade Gourmande",
-        "cookingType": " Spécialités de Grillades",
+        "cookingType": "Spécialités de Grillades",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1081,7 +1081,7 @@
     },
     {
         "name": "La Bonne Auberge",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1099,7 +1099,7 @@
     },
     {
         "name": "Au Trotthus",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1117,7 +1117,7 @@
     },
     {
         "name": "Le Confidentiel",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1135,7 +1135,7 @@
     },
     {
         "name": "Le Petit Verdot du 17ème",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1153,7 +1153,7 @@
     },
     {
         "name": "Le Timbre",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1171,7 +1171,7 @@
     },
     {
         "name": "La Gourmandine",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1189,7 +1189,7 @@
     },
     {
         "name": "Le Bistrot des Voraces",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1207,7 +1207,7 @@
     },
     {
         "name": "Le 6 à Table",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1225,7 +1225,7 @@
     },
     {
         "name": "Le Denti",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1243,7 +1243,7 @@
     },
     {
         "name": "Restaurant du Musée",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1261,7 +1261,7 @@
     },
     {
         "name": "Le Petit St-Thomas",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1279,7 +1279,7 @@
     },
     {
         "name": "Les Voiles",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1297,7 +1297,7 @@
     },
     {
         "name": "Le Brélévenez",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1315,7 +1315,7 @@
     },
     {
         "name": "Au Vieux Moulin",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1333,7 +1333,7 @@
     },
     {
         "name": "Winstub du Chambard",
-        "cookingType": " Cuisine alsacienne",
+        "cookingType": "Cuisine alsacienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1351,7 +1351,7 @@
     },
     {
         "name": "Le Bistrot",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1369,7 +1369,7 @@
     },
     {
         "name": "L'Agape",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1387,7 +1387,7 @@
     },
     {
         "name": "Au Coq en Velours",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1405,7 +1405,7 @@
     },
     {
         "name": "33 Cité",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1423,7 +1423,7 @@
     },
     {
         "name": "L'Estaminet du Centre",
-        "cookingType": " Cuisine du terroir",
+        "cookingType": "Cuisine du terroir",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1441,7 +1441,7 @@
     },
     {
         "name": "Grain de Sel",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1459,7 +1459,7 @@
     },
     {
         "name": "N° 41",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1477,7 +1477,7 @@
     },
     {
         "name": "Le Morvan",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1495,7 +1495,7 @@
     },
     {
         "name": "La Table d'Élise",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1513,7 +1513,7 @@
     },
     {
         "name": "Au Cheval Blanc",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1531,7 +1531,7 @@
     },
     {
         "name": "Auberge Lentaise",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1549,7 +1549,7 @@
     },
     {
         "name": "L'Ascalier",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1567,7 +1567,7 @@
     },
     {
         "name": "Auberge de la Rivière",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1585,7 +1585,7 @@
     },
     {
         "name": "La Ferme de Villeneuve",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1603,7 +1603,7 @@
     },
     {
         "name": "Nougier",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1621,7 +1621,7 @@
     },
     {
         "name": "Les Canailles Ménilmontant",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1639,7 +1639,7 @@
     },
     {
         "name": "Aux Plaisirs des Halles",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1657,7 +1657,7 @@
     },
     {
         "name": "La Chaumière",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1675,7 +1675,7 @@
     },
     {
         "name": "Les Archives",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1693,7 +1693,7 @@
     },
     {
         "name": "L'Art Gourmand",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1711,7 +1711,7 @@
     },
     {
         "name": "Bürestubel",
-        "cookingType": " Cuisine alsacienne",
+        "cookingType": "Cuisine alsacienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1729,7 +1729,7 @@
     },
     {
         "name": "Le Vanteaux",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1747,7 +1747,7 @@
     },
     {
         "name": "Le Clos de la Fontaine",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1765,7 +1765,7 @@
     },
     {
         "name": "Olive et Artichaut",
-        "cookingType": " Cuisine régionale",
+        "cookingType": "Cuisine régionale",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1783,7 +1783,7 @@
     },
     {
         "name": "Auberge St-Fiacre",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1801,7 +1801,7 @@
     },
     {
         "name": "La Récréation Gourmande",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1819,7 +1819,7 @@
     },
     {
         "name": "La Table d'Yves",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1837,7 +1837,7 @@
     },
     {
         "name": "Le Viscos",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1855,7 +1855,7 @@
     },
     {
         "name": "Le Bistrot du 11",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1873,7 +1873,7 @@
     },
     {
         "name": "Le Caillebotte",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1891,7 +1891,7 @@
     },
     {
         "name": "La Ferme de Victorine",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1909,7 +1909,7 @@
     },
     {
         "name": "La Closerie des Roses",
-        "cookingType": " Cuisine classique",
+        "cookingType": "Cuisine classique",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1927,7 +1927,7 @@
     },
     {
         "name": "Le Balata",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1945,7 +1945,7 @@
     },
     {
         "name": "Mimosa",
-        "cookingType": " Cuisine provençale",
+        "cookingType": "Cuisine provençale",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1963,7 +1963,7 @@
     },
     {
         "name": "L'Ourdissoir",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1981,7 +1981,7 @@
     },
     {
         "name": "Essentiel",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -1999,7 +1999,7 @@
     },
     {
         "name": "Le Nid",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2017,7 +2017,7 @@
     },
     {
         "name": "Hostellerie Bressane",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2035,7 +2035,7 @@
     },
     {
         "name": "La Taverne Alsacienne",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2053,7 +2053,7 @@
     },
     {
         "name": "Cucina",
-        "cookingType": " Cuisine italienne",
+        "cookingType": "Cuisine italienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2071,7 +2071,7 @@
     },
     {
         "name": "Bistro À Côté",
-        "cookingType": " Cuisine provençale",
+        "cookingType": "Cuisine provençale",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2089,7 +2089,7 @@
     },
     {
         "name": "L'Estacade",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2107,7 +2107,7 @@
     },
     {
         "name": "Le Flaveur",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2125,7 +2125,7 @@
     },
     {
         "name": "Pho Tai",
-        "cookingType": " Cuisine vietnamienne",
+        "cookingType": "Cuisine vietnamienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2143,7 +2143,7 @@
     },
     {
         "name": "Le Saint-Jacques",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2161,7 +2161,7 @@
     },
     {
         "name": "Le Grand St-Benoît",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2179,7 +2179,7 @@
     },
     {
         "name": "La Table Bâgésienne",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2197,7 +2197,7 @@
     },
     {
         "name": "L'Esquisse",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2215,7 +2215,7 @@
     },
     {
         "name": "Auberge des 3 J",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2233,7 +2233,7 @@
     },
     {
         "name": "La Table d'Antan",
-        "cookingType": " Cuisine du Sud-Ouest",
+        "cookingType": "Cuisine du Sud-Ouest",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2251,7 +2251,7 @@
     },
     {
         "name": "Le Fort du Pré",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2269,7 +2269,7 @@
     },
     {
         "name": "Itacoa",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2287,7 +2287,7 @@
     },
     {
         "name": "Le Pavillon CG",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2305,7 +2305,7 @@
     },
     {
         "name": "Bistrotters",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2323,7 +2323,7 @@
     },
     {
         "name": "Au Chapeau Rouge",
-        "cookingType": " Cuisine du terroir",
+        "cookingType": "Cuisine du terroir",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2341,7 +2341,7 @@
     },
     {
         "name": "Relais de l'Abbaye",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2359,7 +2359,7 @@
     },
     {
         "name": "Le Bistrot de Guillaume",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2377,7 +2377,7 @@
     },
     {
         "name": "Ô Saveurs",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2395,7 +2395,7 @@
     },
     {
         "name": "Le Saint-Eutrope",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2413,7 +2413,7 @@
     },
     {
         "name": "Le Bistrot",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2431,7 +2431,7 @@
     },
     {
         "name": "Le Desnoyez",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2449,7 +2449,7 @@
     },
     {
         "name": "La Cour de Rémi",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2467,7 +2467,7 @@
     },
     {
         "name": "La Bartavelle",
-        "cookingType": " Cuisine créative",
+        "cookingType": "Cuisine créative",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2485,7 +2485,7 @@
     },
     {
         "name": "Sauf Imprévu",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2503,7 +2503,7 @@
     },
     {
         "name": "L'Artimon",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2521,7 +2521,7 @@
     },
     {
         "name": "Au Bout de la Rue",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2539,7 +2539,7 @@
     },
     {
         "name": "Jeux 2 Goûts",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2557,7 +2557,7 @@
     },
     {
         "name": "La Petite Auberge",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2575,7 +2575,7 @@
     },
     {
         "name": "Le Saint-Hilaire",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2593,7 +2593,7 @@
     },
     {
         "name": "La Toq'",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2611,7 +2611,7 @@
     },
     {
         "name": "L'Envie du Jour",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2629,7 +2629,7 @@
     },
     {
         "name": "Bello Visto",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2647,7 +2647,7 @@
     },
     {
         "name": "Maison Chabran - Espace Gourmand",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2665,7 +2665,7 @@
     },
     {
         "name": "Auberge des Étiers",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2683,7 +2683,7 @@
     },
     {
         "name": "L'Altévic",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2701,7 +2701,7 @@
     },
     {
         "name": "Aux Enfants Gâtés",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2719,7 +2719,7 @@
     },
     {
         "name": "Maison Gambert",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2737,7 +2737,7 @@
     },
     {
         "name": "Le Faitout",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2755,7 +2755,7 @@
     },
     {
         "name": "Domaine de Baulieu",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2773,7 +2773,7 @@
     },
     {
         "name": "Auberge de l'Ady",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2791,7 +2791,7 @@
     },
     {
         "name": "Les Coloquintes",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2809,7 +2809,7 @@
     },
     {
         "name": "La P'tite Cour",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2827,7 +2827,7 @@
     },
     {
         "name": "La Bergerie",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2845,7 +2845,7 @@
     },
     {
         "name": "Sur le Pont ...",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2863,7 +2863,7 @@
     },
     {
         "name": "L'Adonis",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2881,7 +2881,7 @@
     },
     {
         "name": "Le Courbet",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2899,7 +2899,7 @@
     },
     {
         "name": "Mandoobar",
-        "cookingType": " Cuisine coréenne",
+        "cookingType": "Cuisine coréenne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2917,7 +2917,7 @@
     },
     {
         "name": "La Toupine",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2935,7 +2935,7 @@
     },
     {
         "name": "France et Fuchsias",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2953,7 +2953,7 @@
     },
     {
         "name": "Hostellerie Saint-Clément",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2971,7 +2971,7 @@
     },
     {
         "name": "L'Instant...",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -2989,7 +2989,7 @@
     },
     {
         "name": "Le Cambusier",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3007,7 +3007,7 @@
     },
     {
         "name": "Clamato",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3025,7 +3025,7 @@
     },
     {
         "name": "Au Lion d'Or - Chez Théo",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3043,7 +3043,7 @@
     },
     {
         "name": "Côté Bistro",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3061,7 +3061,7 @@
     },
     {
         "name": "Le Villaret",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3079,7 +3079,7 @@
     },
     {
         "name": "Gabbro",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3097,7 +3097,7 @@
     },
     {
         "name": "Épices et Tout",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3115,7 +3115,7 @@
     },
     {
         "name": "Origins 14",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3133,7 +3133,7 @@
     },
     {
         "name": "Le Gavrinis",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3151,7 +3151,7 @@
     },
     {
         "name": "Ferme Saint-Sébastien",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3169,7 +3169,7 @@
     },
     {
         "name": "Café Lavinal",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3187,7 +3187,7 @@
     },
     {
         "name": "L'Embellie",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3205,7 +3205,7 @@
     },
     {
         "name": "Auberge de l'Île",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3223,7 +3223,7 @@
     },
     {
         "name": "Au Bon Pichet",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3241,7 +3241,7 @@
     },
     {
         "name": "Auberge de l'Abbaye",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3259,7 +3259,7 @@
     },
     {
         "name": "La Table",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3277,7 +3277,7 @@
     },
     {
         "name": "L'Hibiscus",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3295,7 +3295,7 @@
     },
     {
         "name": "L'Atelier Bistrot",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3313,7 +3313,7 @@
     },
     {
         "name": "Le Buffet",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3331,7 +3331,7 @@
     },
     {
         "name": "Le Lisita",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3349,7 +3349,7 @@
     },
     {
         "name": "Dépôt Légal",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3367,7 +3367,7 @@
     },
     {
         "name": "Ô en Couleur",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3385,7 +3385,7 @@
     },
     {
         "name": "La Renaissance",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3403,7 +3403,7 @@
     },
     {
         "name": "Comptoir des Voyageurs",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3421,7 +3421,7 @@
     },
     {
         "name": "Moulin de la Tardoire",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3439,7 +3439,7 @@
     },
     {
         "name": "La Table d'Auzeville",
-        "cookingType": " Cuisine classique",
+        "cookingType": "Cuisine classique",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3457,7 +3457,7 @@
     },
     {
         "name": "Le Mangevins",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3475,7 +3475,7 @@
     },
     {
         "name": "Gillio",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3493,7 +3493,7 @@
     },
     {
         "name": "Aromatic",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3511,7 +3511,7 @@
     },
     {
         "name": "Le Bourbon",
-        "cookingType": " Cuisine du terroir",
+        "cookingType": "Cuisine du terroir",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3529,7 +3529,7 @@
     },
     {
         "name": "L'Océanide",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3547,7 +3547,7 @@
     },
     {
         "name": "La Maison Tourangelle",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3565,7 +3565,7 @@
     },
     {
         "name": "L'Aigle d'Or",
-        "cookingType": " Cuisine classique",
+        "cookingType": "Cuisine classique",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3583,7 +3583,7 @@
     },
     {
         "name": "La Quincaillerie",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3601,7 +3601,7 @@
     },
     {
         "name": "Le Bistro Urbain",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3619,7 +3619,7 @@
     },
     {
         "name": "Le Brézoune",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3637,7 +3637,7 @@
     },
     {
         "name": "Hostellerie de la Mer",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3655,7 +3655,7 @@
     },
     {
         "name": "Le Jardin des Brouches",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3673,7 +3673,7 @@
     },
     {
         "name": "L'Embellie",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3691,7 +3691,7 @@
     },
     {
         "name": "Le Carillon",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3709,7 +3709,7 @@
     },
     {
         "name": "La Table du Moulin",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3727,7 +3727,7 @@
     },
     {
         "name": "Auberge de Ti-Coz",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3745,7 +3745,7 @@
     },
     {
         "name": "Auberge des Tilleuls",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3763,7 +3763,7 @@
     },
     {
         "name": "Au Coin des Halles",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3781,7 +3781,7 @@
     },
     {
         "name": "Sodade",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3799,7 +3799,7 @@
     },
     {
         "name": "Le Clos Monteils",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3817,7 +3817,7 @@
     },
     {
         "name": "Danton",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3835,7 +3835,7 @@
     },
     {
         "name": "Auberge du Parc Carola",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3853,7 +3853,7 @@
     },
     {
         "name": "L'Oseille",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3871,7 +3871,7 @@
     },
     {
         "name": "Les Plaisirs",
-        "cookingType": " Cuisine régionale",
+        "cookingType": "Cuisine régionale",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3889,7 +3889,7 @@
     },
     {
         "name": "La Verrière",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3907,7 +3907,7 @@
     },
     {
         "name": "Auberge de Port Vallières",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3925,7 +3925,7 @@
     },
     {
         "name": "Le Bistrot",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3943,7 +3943,7 @@
     },
     {
         "name": "Winstub À Côté",
-        "cookingType": " Cuisine régionale",
+        "cookingType": "Cuisine régionale",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3961,7 +3961,7 @@
     },
     {
         "name": "Le Méjane",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3979,7 +3979,7 @@
     },
     {
         "name": "Ô Saveurs",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -3997,7 +3997,7 @@
     },
     {
         "name": "Les Flots",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4015,7 +4015,7 @@
     },
     {
         "name": "Le Garet",
-        "cookingType": " Cuisine lyonnaise",
+        "cookingType": "Cuisine lyonnaise",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4033,7 +4033,7 @@
     },
     {
         "name": "Kokoro",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4051,7 +4051,7 @@
     },
     {
         "name": "Bistrot Gourmand",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4069,7 +4069,7 @@
     },
     {
         "name": "La Fleur de Sel",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4087,7 +4087,7 @@
     },
     {
         "name": "Augusto",
-        "cookingType": " Cuisine italienne",
+        "cookingType": "Cuisine italienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4105,7 +4105,7 @@
     },
     {
         "name": "Bordeaux",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4123,7 +4123,7 @@
     },
     {
         "name": "La Tour de Môle",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4141,7 +4141,7 @@
     },
     {
         "name": "Le Jardin",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4159,7 +4159,7 @@
     },
     {
         "name": "Bistrot Constant",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4177,7 +4177,7 @@
     },
     {
         "name": "Le François II",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4195,7 +4195,7 @@
     },
     {
         "name": "La Table de Catherine",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4213,7 +4213,7 @@
     },
     {
         "name": "La Colombe",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4231,7 +4231,7 @@
     },
     {
         "name": "L'Escargot",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4249,7 +4249,7 @@
     },
     {
         "name": "La Toile à Beurre",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4267,7 +4267,7 @@
     },
     {
         "name": "Ttotta",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4285,7 +4285,7 @@
     },
     {
         "name": "Le Chastellux",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4303,7 +4303,7 @@
     },
     {
         "name": "Iida-Ya",
-        "cookingType": " Cuisine japonaise",
+        "cookingType": "Cuisine japonaise",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4321,7 +4321,7 @@
     },
     {
         "name": "Le Vioben",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4339,7 +4339,7 @@
     },
     {
         "name": "Ô Délices des Papilles",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4357,7 +4357,7 @@
     },
     {
         "name": "Quai 17",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4375,7 +4375,7 @@
     },
     {
         "name": "La Petite Maison",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4393,7 +4393,7 @@
     },
     {
         "name": "La Croix d'Or",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4411,7 +4411,7 @@
     },
     {
         "name": "Au Bon Accueil",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4429,7 +4429,7 @@
     },
     {
         "name": "La Mirabelle",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4447,7 +4447,7 @@
     },
     {
         "name": "Les Quatre Saisons",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4465,7 +4465,7 @@
     },
     {
         "name": "Sémantème",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4483,7 +4483,7 @@
     },
     {
         "name": "Hôtel de France",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4501,7 +4501,7 @@
     },
     {
         "name": "La Boria",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4519,7 +4519,7 @@
     },
     {
         "name": "Le Soufflot",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4537,7 +4537,7 @@
     },
     {
         "name": "Bistrot des Anges",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4555,7 +4555,7 @@
     },
     {
         "name": "La Poule d'Or",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4573,7 +4573,7 @@
     },
     {
         "name": "L'Auberge du Pas de Vent",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4591,7 +4591,7 @@
     },
     {
         "name": "Le Théâtre",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4609,7 +4609,7 @@
     },
     {
         "name": "Les Filets Bleus",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4627,7 +4627,7 @@
     },
     {
         "name": "Au Pont du Corbeau",
-        "cookingType": " Cuisine alsacienne",
+        "cookingType": "Cuisine alsacienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4645,7 +4645,7 @@
     },
     {
         "name": "L'Atelier L'Art des Mets",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4663,7 +4663,7 @@
     },
     {
         "name": "Le Local",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4681,7 +4681,7 @@
     },
     {
         "name": "Auberge du Terroir",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4699,7 +4699,7 @@
     },
     {
         "name": "Le Décollé",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4717,7 +4717,7 @@
     },
     {
         "name": "Arbequina",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4735,7 +4735,7 @@
     },
     {
         "name": "L'Équilibre",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4753,7 +4753,7 @@
     },
     {
         "name": "Le Bistro d'en Face",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4771,7 +4771,7 @@
     },
     {
         "name": "Au Côte d'Argent",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4789,7 +4789,7 @@
     },
     {
         "name": "L'Embarcadère",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4807,7 +4807,7 @@
     },
     {
         "name": "Mets et Vins",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4825,7 +4825,7 @@
     },
     {
         "name": "Vegan Gorilla",
-        "cookingType": " Cuisine végétarienne",
+        "cookingType": "Cuisine végétarienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4843,7 +4843,7 @@
     },
     {
         "name": "La Télécabine",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4861,7 +4861,7 @@
     },
     {
         "name": "La Pointe du Cap Coz",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4879,7 +4879,7 @@
     },
     {
         "name": "Chai l'amère Kolette",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4897,7 +4897,7 @@
     },
     {
         "name": "L'Aubépine",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4915,7 +4915,7 @@
     },
     {
         "name": "Auberge de Bardigues",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4933,7 +4933,7 @@
     },
     {
         "name": "Côté Bastide",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4951,7 +4951,7 @@
     },
     {
         "name": "Le Vauban",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4969,7 +4969,7 @@
     },
     {
         "name": "La Capitelle",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -4987,7 +4987,7 @@
     },
     {
         "name": "La Table de Léo",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5005,7 +5005,7 @@
     },
     {
         "name": "Jouvence",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5023,7 +5023,7 @@
     },
     {
         "name": "1er Mets",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5041,7 +5041,7 @@
     },
     {
         "name": "Au Fil des Saisons",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5059,7 +5059,7 @@
     },
     {
         "name": "La Grange des Agapes",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5077,7 +5077,7 @@
     },
     {
         "name": "Le Saint Joseph",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5095,7 +5095,7 @@
     },
     {
         "name": "Le Patio by Lou Caléou",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5113,7 +5113,7 @@
     },
     {
         "name": "Le Panoramique",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5131,7 +5131,7 @@
     },
     {
         "name": "Chez Mon Jules",
-        "cookingType": " Cuisine du terroir",
+        "cookingType": "Cuisine du terroir",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5149,7 +5149,7 @@
     },
     {
         "name": "Le Gantxo",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5167,7 +5167,7 @@
     },
     {
         "name": "Winstub Arnold",
-        "cookingType": " Cuisine alsacienne",
+        "cookingType": "Cuisine alsacienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5185,7 +5185,7 @@
     },
     {
         "name": "La Table de la Réserve",
-        "cookingType": " Cuisine méditerranéenne",
+        "cookingType": "Cuisine méditerranéenne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5203,7 +5203,7 @@
     },
     {
         "name": "La Charrette Bleue",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5221,7 +5221,7 @@
     },
     {
         "name": "L'Oustalet Maïanen",
-        "cookingType": " Cuisine provençale",
+        "cookingType": "Cuisine provençale",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5239,7 +5239,7 @@
     },
     {
         "name": "Sterenn",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5257,7 +5257,7 @@
     },
     {
         "name": "La Corniche",
-        "cookingType": " Cuisine corse",
+        "cookingType": "Cuisine corse",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5275,7 +5275,7 @@
     },
     {
         "name": "Le Clos aux Roses",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5293,7 +5293,7 @@
     },
     {
         "name": "Bistrot du Pollet",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5311,7 +5311,7 @@
     },
     {
         "name": "Au Raisin d'Or",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5329,7 +5329,7 @@
     },
     {
         "name": "Restaurant de la Gare",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5347,7 +5347,7 @@
     },
     {
         "name": "Le Bistrot d'à Côté",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5365,7 +5365,7 @@
     },
     {
         "name": "Le Colvert",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5383,7 +5383,7 @@
     },
     {
         "name": "L'Amandier de Mougins",
-        "cookingType": " Cuisine provençale",
+        "cookingType": "Cuisine provençale",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5401,7 +5401,7 @@
     },
     {
         "name": "Saperlipopette !",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5419,7 +5419,7 @@
     },
     {
         "name": "Auberge La Gaillotière",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5437,7 +5437,7 @@
     },
     {
         "name": "L'Espérance - Stéphane Carbone",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5455,7 +5455,7 @@
     },
     {
         "name": "Le Pélican",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5473,7 +5473,7 @@
     },
     {
         "name": "La Table d'Antoine",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5491,7 +5491,7 @@
     },
     {
         "name": "Auberge de la Fontaine du Berger",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5509,7 +5509,7 @@
     },
     {
         "name": "Estaminet à l'Agneau",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5527,7 +5527,7 @@
     },
     {
         "name": "Aux Trois Pastoureaux",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5545,7 +5545,7 @@
     },
     {
         "name": "Le Médiéval",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5563,7 +5563,7 @@
     },
     {
         "name": "Bol d'Air",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5581,7 +5581,7 @@
     },
     {
         "name": "Le Bistrot Pontarlier",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5599,7 +5599,7 @@
     },
     {
         "name": "Le P'tit Bouchon",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5617,7 +5617,7 @@
     },
     {
         "name": "L'Atelier",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5635,7 +5635,7 @@
     },
     {
         "name": "La Laiterie Sainte-Clotilde",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5653,7 +5653,7 @@
     },
     {
         "name": "A Mandria di Pigna",
-        "cookingType": " Cuisine corse",
+        "cookingType": "Cuisine corse",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5671,7 +5671,7 @@
     },
     {
         "name": "L'Univers",
-        "cookingType": " Cuisine créative",
+        "cookingType": "Cuisine créative",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5689,7 +5689,7 @@
     },
     {
         "name": "Côté Saisons",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5707,7 +5707,7 @@
     },
     {
         "name": "Cheval Blanc",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5725,7 +5725,7 @@
     },
     {
         "name": "L'Espérance",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5743,7 +5743,7 @@
     },
     {
         "name": "O'Plaisir des Sens",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5761,7 +5761,7 @@
     },
     {
         "name": "Le Beaujolais",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5779,7 +5779,7 @@
     },
     {
         "name": "Auberge du Prieuré Normand",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5797,7 +5797,7 @@
     },
     {
         "name": "Le Jean Moulin",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5815,7 +5815,7 @@
     },
     {
         "name": "Restaurant Arcé",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5833,7 +5833,7 @@
     },
     {
         "name": "Auberge des Deux Magots",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5851,7 +5851,7 @@
     },
     {
         "name": "L'Artichaut",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5869,7 +5869,7 @@
     },
     {
         "name": "L'Alicanta",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5887,7 +5887,7 @@
     },
     {
         "name": "La Table du Relais du Bois St-Georges",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5905,7 +5905,7 @@
     },
     {
         "name": "Côté Saveurs",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5923,7 +5923,7 @@
     },
     {
         "name": "Hostellerie d'Héloïse",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5941,7 +5941,7 @@
     },
     {
         "name": "Le Vert d'O",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5959,7 +5959,7 @@
     },
     {
         "name": "L'Épicurien",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5977,7 +5977,7 @@
     },
     {
         "name": "La Table D'eux - Laurent Le Berrigaud",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -5995,7 +5995,7 @@
     },
     {
         "name": "Auberge Pyrénées Cévennes",
-        "cookingType": " Cuisine du terroir",
+        "cookingType": "Cuisine du terroir",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6013,7 +6013,7 @@
     },
     {
         "name": "Daniel et Denise Créqui",
-        "cookingType": " Cuisine lyonnaise",
+        "cookingType": "Cuisine lyonnaise",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6031,7 +6031,7 @@
     },
     {
         "name": "La Fleur de Sel",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6049,7 +6049,7 @@
     },
     {
         "name": "La Merenda",
-        "cookingType": " Cuisine provençale",
+        "cookingType": "Cuisine provençale",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6067,7 +6067,7 @@
     },
     {
         "name": "Le Rabelais",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6085,7 +6085,7 @@
     },
     {
         "name": "Abri Soba",
-        "cookingType": " Cuisine japonaise",
+        "cookingType": "Cuisine japonaise",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6103,7 +6103,7 @@
     },
     {
         "name": "Ahizpak Le Restaurant des Sœurs",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6121,7 +6121,7 @@
     },
     {
         "name": "La Ferme du Vert",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6139,7 +6139,7 @@
     },
     {
         "name": "La Suite S'il Vous Plaît",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6157,7 +6157,7 @@
     },
     {
         "name": "La Safranière",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6175,7 +6175,7 @@
     },
     {
         "name": "Le Cerisier",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6193,7 +6193,7 @@
     },
     {
         "name": "Isabelle Auguy",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6211,7 +6211,7 @@
     },
     {
         "name": "L'Angle Saint-Laurent",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6229,7 +6229,7 @@
     },
     {
         "name": "Substrat",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6247,7 +6247,7 @@
     },
     {
         "name": "Auberge La Grange aux Loups",
-        "cookingType": " Cuisine classique",
+        "cookingType": "Cuisine classique",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6265,7 +6265,7 @@
     },
     {
         "name": "Restaurant Dimofski",
-        "cookingType": " Cuisine actuelle",
+        "cookingType": "Cuisine actuelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6283,7 +6283,7 @@
     },
     {
         "name": "La Poutre",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6301,7 +6301,7 @@
     },
     {
         "name": "Saku Restaurant",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6319,7 +6319,7 @@
     },
     {
         "name": "L'Auberge du Laminak",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6337,7 +6337,7 @@
     },
     {
         "name": "Un Grain de Saveur",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6355,7 +6355,7 @@
     },
     {
         "name": "Le Relais d'Ozenay",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6373,7 +6373,7 @@
     },
     {
         "name": "La Parenthèse",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6391,7 +6391,7 @@
     },
     {
         "name": "Auberge de Combes",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6409,7 +6409,7 @@
     },
     {
         "name": "Bistrot DuPont",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6427,7 +6427,7 @@
     },
     {
         "name": "Le Chardonnay",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6445,7 +6445,7 @@
     },
     {
         "name": "52 Faubourg St-Denis",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6463,7 +6463,7 @@
     },
     {
         "name": "Au Petit Relais",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6481,7 +6481,7 @@
     },
     {
         "name": "Au Cheval Blanc",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6499,7 +6499,7 @@
     },
     {
         "name": "Le Réciproque",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6517,7 +6517,7 @@
     },
     {
         "name": "Le Quai",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6535,7 +6535,7 @@
     },
     {
         "name": "Le Lancelot",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6553,7 +6553,7 @@
     },
     {
         "name": "Auberge du Château",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6571,7 +6571,7 @@
     },
     {
         "name": "Café Brunet",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6589,7 +6589,7 @@
     },
     {
         "name": "L'Atelier du Parc",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6607,7 +6607,7 @@
     },
     {
         "name": "Sogni D'Italia",
-        "cookingType": " Cuisine italienne",
+        "cookingType": "Cuisine italienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6625,7 +6625,7 @@
     },
     {
         "name": "Auberge du Pont",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6643,7 +6643,7 @@
     },
     {
         "name": "Le Tilleul de Sully",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6661,7 +6661,7 @@
     },
     {
         "name": "In Extremis",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6679,7 +6679,7 @@
     },
     {
         "name": "Le Poisson d'Avril",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6697,7 +6697,7 @@
     },
     {
         "name": "Kisin",
-        "cookingType": " Cuisine japonaise",
+        "cookingType": "Cuisine japonaise",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6715,7 +6715,7 @@
     },
     {
         "name": "La Pie qui Couette",
-        "cookingType": " Cuisine méditerranéenne",
+        "cookingType": "Cuisine méditerranéenne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6733,7 +6733,7 @@
     },
     {
         "name": "Le Garriane",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6751,7 +6751,7 @@
     },
     {
         "name": "Auberge de la Roche",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6769,7 +6769,7 @@
     },
     {
         "name": "La Flèche d'Argent",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6787,7 +6787,7 @@
     },
     {
         "name": "Restaurant des Grands Boulevards",
-        "cookingType": " Cuisine italienne",
+        "cookingType": "Cuisine italienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6805,7 +6805,7 @@
     },
     {
         "name": "Bistrot St-Sauveur",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6823,7 +6823,7 @@
     },
     {
         "name": "Monsieur",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6841,7 +6841,7 @@
     },
     {
         "name": "André",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6859,7 +6859,7 @@
     },
     {
         "name": "Influences",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6877,7 +6877,7 @@
     },
     {
         "name": "Le Terminus",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6895,7 +6895,7 @@
     },
     {
         "name": "Paris Méditerranée",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6913,7 +6913,7 @@
     },
     {
         "name": "Fine Gueule",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6931,7 +6931,7 @@
     },
     {
         "name": "Mets Mots",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6949,7 +6949,7 @@
     },
     {
         "name": "La Vieille Forge",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6967,7 +6967,7 @@
     },
     {
         "name": "Auberge du Moulin",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -6985,7 +6985,7 @@
     },
     {
         "name": "Le St-Georges",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7003,7 +7003,7 @@
     },
     {
         "name": "Saveurs de l'Abbaye",
-        "cookingType": " Cuisine du marché",
+        "cookingType": "Cuisine du marché",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7021,7 +7021,7 @@
     },
     {
         "name": "L'Arôme",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7039,7 +7039,7 @@
     },
     {
         "name": "Le Bréard",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7057,7 +7057,7 @@
     },
     {
         "name": "Coteaux et Fourchettes",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7075,7 +7075,7 @@
     },
     {
         "name": "Auberge des Chenêts",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7093,7 +7093,7 @@
     },
     {
         "name": "Bistro du Clos",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7111,7 +7111,7 @@
     },
     {
         "name": "Mensae",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7129,7 +7129,7 @@
     },
     {
         "name": "L'Alambic",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7147,7 +7147,7 @@
     },
     {
         "name": "Le Central",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7165,7 +7165,7 @@
     },
     {
         "name": "I Golosi",
-        "cookingType": " Cuisine italienne",
+        "cookingType": "Cuisine italienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7183,7 +7183,7 @@
     },
     {
         "name": "À la Route d'Argent",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7201,7 +7201,7 @@
     },
     {
         "name": "Restaurant de la Plage",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7219,7 +7219,7 @@
     },
     {
         "name": "Zen",
-        "cookingType": " Cuisine japonaise",
+        "cookingType": "Cuisine japonaise",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7237,7 +7237,7 @@
     },
     {
         "name": "Bistrot d'Antoine",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7255,7 +7255,7 @@
     },
     {
         "name": "L'Air de Famille",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7273,7 +7273,7 @@
     },
     {
         "name": "Maison Joanto",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7291,7 +7291,7 @@
     },
     {
         "name": "Le Bistrot du Rocher",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7309,7 +7309,7 @@
     },
     {
         "name": "Le Grapiot",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7327,7 +7327,7 @@
     },
     {
         "name": "Le Vitis",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7345,7 +7345,7 @@
     },
     {
         "name": "Barbezingue",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7363,7 +7363,7 @@
     },
     {
         "name": "Côté Sud",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7381,7 +7381,7 @@
     },
     {
         "name": "Zest",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7399,7 +7399,7 @@
     },
     {
         "name": "La Rochette",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7417,7 +7417,7 @@
     },
     {
         "name": "Art'zain",
-        "cookingType": " Cuisine du marché",
+        "cookingType": "Cuisine du marché",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7435,7 +7435,7 @@
     },
     {
         "name": "Auberge Le Centre Poitou",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7453,7 +7453,7 @@
     },
     {
         "name": "Otto",
-        "cookingType": " Cuisine méditerranéenne",
+        "cookingType": "Cuisine méditerranéenne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7471,7 +7471,7 @@
     },
     {
         "name": "La Cuisine d'Amélie",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7489,7 +7489,7 @@
     },
     {
         "name": "Philip",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7507,7 +7507,7 @@
     },
     {
         "name": "Restaurant du Dauphin",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7525,7 +7525,7 @@
     },
     {
         "name": "Auberge du Coq-en-Pâte",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7543,7 +7543,7 @@
     },
     {
         "name": "Auberge La Baquère",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7561,7 +7561,7 @@
     },
     {
         "name": "Chez Guy",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7579,7 +7579,7 @@
     },
     {
         "name": "L'Olivier",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7597,7 +7597,7 @@
     },
     {
         "name": "20 Eiffel",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7615,7 +7615,7 @@
     },
     {
         "name": "La Clé des Champs",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7633,7 +7633,7 @@
     },
     {
         "name": "L'Envers du Décor",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7651,7 +7651,7 @@
     },
     {
         "name": "La Table d'Angèle",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7669,7 +7669,7 @@
     },
     {
         "name": "Les 16 Clochers",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7687,7 +7687,7 @@
     },
     {
         "name": "Le Soubise",
-        "cookingType": " Cuisine classique",
+        "cookingType": "Cuisine classique",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7705,7 +7705,7 @@
     },
     {
         "name": "À la 12",
-        "cookingType": " Cuisine créative",
+        "cookingType": "Cuisine créative",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7723,7 +7723,7 @@
     },
     {
         "name": "La Table de Pablo",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7741,7 +7741,7 @@
     },
     {
         "name": "La Maison",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7759,7 +7759,7 @@
     },
     {
         "name": "Air Accueil",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7777,7 +7777,7 @@
     },
     {
         "name": "Bistrot la Coulemelle",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7795,7 +7795,7 @@
     },
     {
         "name": "Impérial Choisy",
-        "cookingType": " Cuisine chinoise",
+        "cookingType": "Cuisine chinoise",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7813,7 +7813,7 @@
     },
     {
         "name": "Atmosphère",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7831,7 +7831,7 @@
     },
     {
         "name": "Regina",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7849,7 +7849,7 @@
     },
     {
         "name": "Le Radis Beurre",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7867,7 +7867,7 @@
     },
     {
         "name": "La Griotte",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7885,7 +7885,7 @@
     },
     {
         "name": "Le Comptoir Breizh Café",
-        "cookingType": " Cuisine bretonne",
+        "cookingType": "Cuisine bretonne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7903,7 +7903,7 @@
     },
     {
         "name": "La Table de Marlène",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7921,7 +7921,7 @@
     },
     {
         "name": "Insens",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7939,7 +7939,7 @@
     },
     {
         "name": "Colbert",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7957,7 +7957,7 @@
     },
     {
         "name": "Lou Esberit",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7975,7 +7975,7 @@
     },
     {
         "name": "Pomze",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -7993,7 +7993,7 @@
     },
     {
         "name": "Le Florida",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8011,7 +8011,7 @@
     },
     {
         "name": "Zorn - La Petite Auberge",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8029,7 +8029,7 @@
     },
     {
         "name": "La Cantinetta",
-        "cookingType": " Cuisine italienne",
+        "cookingType": "Cuisine italienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8047,7 +8047,7 @@
     },
     {
         "name": "Café de la Fontaine",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8065,7 +8065,7 @@
     },
     {
         "name": "La Tête au Loup",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8083,7 +8083,7 @@
     },
     {
         "name": "L'Éden",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8101,7 +8101,7 @@
     },
     {
         "name": "La Chaumine",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8119,7 +8119,7 @@
     },
     {
         "name": "Ô Gayot",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8137,7 +8137,7 @@
     },
     {
         "name": "La Part des Anges",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8155,7 +8155,7 @@
     },
     {
         "name": "L'Empreinte",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8173,7 +8173,7 @@
     },
     {
         "name": "Les Résistants",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8191,7 +8191,7 @@
     },
     {
         "name": "Le Canut et les Gones",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8209,7 +8209,7 @@
     },
     {
         "name": "Lou Pinatou",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8227,7 +8227,7 @@
     },
     {
         "name": "Len' K",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8245,7 +8245,7 @@
     },
     {
         "name": "Le Bouche à Oreille",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8263,7 +8263,7 @@
     },
     {
         "name": "Le Puits des Saveurs",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8281,7 +8281,7 @@
     },
     {
         "name": "Le Sabayon",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8299,7 +8299,7 @@
     },
     {
         "name": "Le Jourdain",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8317,7 +8317,7 @@
     },
     {
         "name": "Les Cocottes - Tour Eiffel",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8335,7 +8335,7 @@
     },
     {
         "name": "Au Plaisir Ambré",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8353,7 +8353,7 @@
     },
     {
         "name": "Le Central",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8371,7 +8371,7 @@
     },
     {
         "name": "Le Pantruche",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8389,7 +8389,7 @@
     },
     {
         "name": "Le Kitchen Café",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8407,7 +8407,7 @@
     },
     {
         "name": "La Chaumière",
-        "cookingType": " Cuisine catalane",
+        "cookingType": "Cuisine catalane",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8425,7 +8425,7 @@
     },
     {
         "name": "Le Mutin Gourmand",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8443,7 +8443,7 @@
     },
     {
         "name": "Le Muratore",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8461,7 +8461,7 @@
     },
     {
         "name": "Le Saint-Honoré",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8479,7 +8479,7 @@
     },
     {
         "name": "Le Chevreuil",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8497,7 +8497,7 @@
     },
     {
         "name": "L'Amandier",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8515,7 +8515,7 @@
     },
     {
         "name": "Les Arômes",
-        "cookingType": " Cuisine du marché",
+        "cookingType": "Cuisine du marché",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8533,7 +8533,7 @@
     },
     {
         "name": "Bistrot des Hauts de Loire",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8551,7 +8551,7 @@
     },
     {
         "name": "La Table d'Hôtes",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8569,7 +8569,7 @@
     },
     {
         "name": "Chez les Anges",
-        "cookingType": " Cuisine classique",
+        "cookingType": "Cuisine classique",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8587,7 +8587,7 @@
     },
     {
         "name": "La Dariole",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8605,7 +8605,7 @@
     },
     {
         "name": "Histoire Ancienne",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8623,7 +8623,7 @@
     },
     {
         "name": "Belle-Vue",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8641,7 +8641,7 @@
     },
     {
         "name": "L'Air du Temps",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8659,7 +8659,7 @@
     },
     {
         "name": "Auberge des Granges",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8677,7 +8677,7 @@
     },
     {
         "name": "Au Colombier",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8695,7 +8695,7 @@
     },
     {
         "name": "Le Bistro du Capucin",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8713,7 +8713,7 @@
     },
     {
         "name": "Bird",
-        "cookingType": " Cuisine du marché",
+        "cookingType": "Cuisine du marché",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8731,7 +8731,7 @@
     },
     {
         "name": "L'Arum",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8749,7 +8749,7 @@
     },
     {
         "name": "Manoir de la Pommeraie",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8767,7 +8767,7 @@
     },
     {
         "name": "Auberge Metzger",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8785,7 +8785,7 @@
     },
     {
         "name": "Au Ptit Bistrot",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8803,7 +8803,7 @@
     },
     {
         "name": "La Méditerranée",
-        "cookingType": " Poissons et fruits de mer",
+        "cookingType": "Poissons et fruits de mer",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8821,7 +8821,7 @@
     },
     {
         "name": "L'Instinct Gourmand",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8839,7 +8839,7 @@
     },
     {
         "name": "La Maison Haute",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8857,7 +8857,7 @@
     },
     {
         "name": "Les Épices Curiens",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8875,7 +8875,7 @@
     },
     {
         "name": "Bistrot Lucien",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8893,7 +8893,7 @@
     },
     {
         "name": "La Flambée",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8911,7 +8911,7 @@
     },
     {
         "name": "Les Templiers",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8929,7 +8929,7 @@
     },
     {
         "name": "En Cuisine",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8947,7 +8947,7 @@
     },
     {
         "name": "M Restaurant",
-        "cookingType": " Cuisine du marché",
+        "cookingType": "Cuisine du marché",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8965,7 +8965,7 @@
     },
     {
         "name": "L'Amphitryon",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -8983,7 +8983,7 @@
     },
     {
         "name": "Relais Ste-Anne",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9001,7 +9001,7 @@
     },
     {
         "name": "Au Cochon Ventru",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9019,7 +9019,7 @@
     },
     {
         "name": "La Cabotte",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9037,7 +9037,7 @@
     },
     {
         "name": "Mee",
-        "cookingType": " Cuisine coréenne",
+        "cookingType": "Cuisine coréenne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9055,7 +9055,7 @@
     },
     {
         "name": "L'Araignée Gourmande",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9073,7 +9073,7 @@
     },
     {
         "name": "Balthaz'art",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9091,7 +9091,7 @@
     },
     {
         "name": "Italie là-bas",
-        "cookingType": " Cuisine italienne",
+        "cookingType": "Cuisine italienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9109,7 +9109,7 @@
     },
     {
         "name": "Le Pré St-Jean",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9127,7 +9127,7 @@
     },
     {
         "name": "Cook'in",
-        "cookingType": " Influences asiatiques",
+        "cookingType": "Influences asiatiques",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9145,7 +9145,7 @@
     },
     {
         "name": "La Ferme du Poulet",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9163,7 +9163,7 @@
     },
     {
         "name": "L'Auberge des Montagnes",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9181,7 +9181,7 @@
     },
     {
         "name": "Brasserie Les Capucines",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9199,7 +9199,7 @@
     },
     {
         "name": "Mamagoto",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9217,7 +9217,7 @@
     },
     {
         "name": "Le Lucullus",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9235,7 +9235,7 @@
     },
     {
         "name": "Le Montcenis",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9253,7 +9253,7 @@
     },
     {
         "name": "Le Gué du Holme",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9271,7 +9271,7 @@
     },
     {
         "name": "L'Instant du Sud",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9289,7 +9289,7 @@
     },
     {
         "name": "Le Rochetoirin",
-        "cookingType": " Cuisine créative",
+        "cookingType": "Cuisine créative",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9307,7 +9307,7 @@
     },
     {
         "name": "Le Dauphin",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9325,7 +9325,7 @@
     },
     {
         "name": "Hostellerie du Prieuré",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9343,7 +9343,7 @@
     },
     {
         "name": "Le Clos Pierrepont",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9361,7 +9361,7 @@
     },
     {
         "name": "Le Casse Noix",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9379,7 +9379,7 @@
     },
     {
         "name": "La Maison Carrier",
-        "cookingType": " Cuisine régionale",
+        "cookingType": "Cuisine régionale",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9397,7 +9397,7 @@
     },
     {
         "name": "Le P'tit Rouquin",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9415,7 +9415,7 @@
     },
     {
         "name": "Le Pressoir de Bacchus",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9433,7 +9433,7 @@
     },
     {
         "name": "L'Eau d'Oust",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9451,7 +9451,7 @@
     },
     {
         "name": "Le Clos Heurtebise",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9469,7 +9469,7 @@
     },
     {
         "name": "Les Capucins",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9487,7 +9487,7 @@
     },
     {
         "name": "Le Bois des Mûres",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9505,7 +9505,7 @@
     },
     {
         "name": "Perle des Vosges",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9523,7 +9523,7 @@
     },
     {
         "name": "Le Cygne",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9541,7 +9541,7 @@
     },
     {
         "name": "La Gazette",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9559,7 +9559,7 @@
     },
     {
         "name": "Ani",
-        "cookingType": " Cuisine créative",
+        "cookingType": "Cuisine créative",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9577,7 +9577,7 @@
     },
     {
         "name": "Le Castet",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9595,7 +9595,7 @@
     },
     {
         "name": "L'Atelier des Gourmets",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9613,7 +9613,7 @@
     },
     {
         "name": "La Table d'Aimé",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9631,7 +9631,7 @@
     },
     {
         "name": "Manoir de l'Acherie",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9649,7 +9649,7 @@
     },
     {
         "name": "Gourmandises",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9667,7 +9667,7 @@
     },
     {
         "name": "L'Ô à la Bouche",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9685,7 +9685,7 @@
     },
     {
         "name": "Le Clos Perché",
-        "cookingType": " Cuisine créative",
+        "cookingType": "Cuisine créative",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9703,7 +9703,7 @@
     },
     {
         "name": "La Table de Catusseau",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9721,7 +9721,7 @@
     },
     {
         "name": "Villa des Houx",
-        "cookingType": " Cuisine classique",
+        "cookingType": "Cuisine classique",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9739,7 +9739,7 @@
     },
     {
         "name": "V Four",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9757,7 +9757,7 @@
     },
     {
         "name": "L'Arche de Meslay",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9775,7 +9775,7 @@
     },
     {
         "name": "Le Cottage",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9793,7 +9793,7 @@
     },
     {
         "name": "Vidal",
-        "cookingType": " Cuisine du terroir",
+        "cookingType": "Cuisine du terroir",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9811,7 +9811,7 @@
     },
     {
         "name": "La Maison de Celou",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9829,7 +9829,7 @@
     },
     {
         "name": "Le Lion d'Or",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9847,7 +9847,7 @@
     },
     {
         "name": "La Balade des Saveurs",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9865,7 +9865,7 @@
     },
     {
         "name": "Tempero",
-        "cookingType": " Cuisine créative",
+        "cookingType": "Cuisine créative",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9883,7 +9883,7 @@
     },
     {
         "name": "Le Chaudron d'Anna",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9901,7 +9901,7 @@
     },
     {
         "name": "Le St-Vincent",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9919,7 +9919,7 @@
     },
     {
         "name": "Carré 2 Vigne",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9937,7 +9937,7 @@
     },
     {
         "name": "Disini",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9955,7 +9955,7 @@
     },
     {
         "name": "Le Jardin d'Alice",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9973,7 +9973,7 @@
     },
     {
         "name": "Restaurant des Voisins",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -9991,7 +9991,7 @@
     },
     {
         "name": "La Ferme de la Haute Crémonville",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10009,7 +10009,7 @@
     },
     {
         "name": "Le Millésime",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10027,7 +10027,7 @@
     },
     {
         "name": "Hôtellerie St-Jean",
-        "cookingType": " Cuisine classique",
+        "cookingType": "Cuisine classique",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10045,7 +10045,7 @@
     },
     {
         "name": "Schilling",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10063,7 +10063,7 @@
     },
     {
         "name": "Le Cabaret",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10081,7 +10081,7 @@
     },
     {
         "name": "Le Bistrot du Gabriel",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10099,7 +10099,7 @@
     },
     {
         "name": "L'Essentiel",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10117,7 +10117,7 @@
     },
     {
         "name": "La Jument Verte",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10135,7 +10135,7 @@
     },
     {
         "name": "Le Boudes La Vigne",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10153,7 +10153,7 @@
     },
     {
         "name": "La Table de Haute-Serre",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10171,7 +10171,7 @@
     },
     {
         "name": "Auberge Pom'Poire",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10189,7 +10189,7 @@
     },
     {
         "name": "Le Bistrot des Moines",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10207,7 +10207,7 @@
     },
     {
         "name": "L'Arbre Vert",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10225,7 +10225,7 @@
     },
     {
         "name": "Auberge du Pont de la Zorn",
-        "cookingType": " Cuisine alsacienne",
+        "cookingType": "Cuisine alsacienne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10243,7 +10243,7 @@
     },
     {
         "name": "La Belle Étoile",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10261,7 +10261,7 @@
     },
     {
         "name": "Pottoka",
-        "cookingType": " Cuisine basque",
+        "cookingType": "Cuisine basque",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10279,7 +10279,7 @@
     },
     {
         "name": "L'Auberge des Bouviers",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10297,7 +10297,7 @@
     },
     {
         "name": "La Pomme d'Or",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10315,7 +10315,7 @@
     },
     {
         "name": "Au Relais des Ménétriers",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10333,7 +10333,7 @@
     },
     {
         "name": "Le Mermoz",
-        "cookingType": " Cuisine du marché",
+        "cookingType": "Cuisine du marché",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10351,7 +10351,7 @@
     },
     {
         "name": "Auberge des Ruines",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10369,7 +10369,7 @@
     },
     {
         "name": "Auberge le Nézil",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10387,7 +10387,7 @@
     },
     {
         "name": "Auberge Larochette",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10405,7 +10405,7 @@
     },
     {
         "name": "La Plage de la Ribaudière",
-        "cookingType": " Cuisine du marché",
+        "cookingType": "Cuisine du marché",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10423,7 +10423,7 @@
     },
     {
         "name": "L'Atelier d'Olivier Arlot",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10441,7 +10441,7 @@
     },
     {
         "name": "Le Vallon de Chérisy",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10459,7 +10459,7 @@
     },
     {
         "name": "Les Mets d'Adélaïde",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10477,7 +10477,7 @@
     },
     {
         "name": "Le Troquet",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10495,7 +10495,7 @@
     },
     {
         "name": "Bambou et Basilic",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10513,7 +10513,7 @@
     },
     {
         "name": "Le Chefson",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10531,7 +10531,7 @@
     },
     {
         "name": "L'Écureuil",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10549,7 +10549,7 @@
     },
     {
         "name": "Biscotte",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10567,7 +10567,7 @@
     },
     {
         "name": "Anga",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10585,7 +10585,7 @@
     },
     {
         "name": "Les Canailles Pigalle",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10603,7 +10603,7 @@
     },
     {
         "name": "Le Turenne",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10621,7 +10621,7 @@
     },
     {
         "name": "L'Os à Moelle",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10639,7 +10639,7 @@
     },
     {
         "name": "Comme Chez Maman",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10657,7 +10657,7 @@
     },
     {
         "name": "Le Tire Bouchon",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10675,7 +10675,7 @@
     },
     {
         "name": "Smørrebrød",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10693,7 +10693,7 @@
     },
     {
         "name": "Jeu de Quilles",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10711,7 +10711,7 @@
     },
     {
         "name": "Quatre Saisons",
-        "cookingType": " Cuisine moderne",
+        "cookingType": "Cuisine moderne",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"
@@ -10729,7 +10729,7 @@
     },
     {
         "name": "Le Balcon",
-        "cookingType": " Cuisine traditionnelle",
+        "cookingType": "Cuisine traditionnelle",
         "distinction": {
             "type": "BIB_GOURMAND",
             "description": "Nos meilleurs rapports qualité-prix"

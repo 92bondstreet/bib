@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "axios": "^0.19.1",
-    "cheerio": "^1.0.0-rc.3"
+    "cheerio": "^1.0.0-rc.3",
+    "iconv-lite": "^0.5.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"

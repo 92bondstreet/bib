@@ -1,6 +1,7 @@
 const cheerio = require('cheerio');
 const axios = require('axios');
 const utils = require('./utils');
+const fs = require('fs');
 const { writeJson, extractText, extractTrimmed, extractTextTrimmed } = utils;
 
 const BASE_URL = "https://guide.michelin.com/fr/fr/restaurants/3-etoiles-michelin/2-etoiles-michelin/1-etoile-michelin/bib-gourmand/page/";
@@ -26,10 +27,12 @@ const scrapeUrl = async(url, callback) => {
  */
 const extractPriceAndCookingType = text => {
     text = text.trim();
-    let [price, cookingType] = text.split('•');
-    price = price.replace(/\s+/g, " ");
+    let [priceText, cookingType] = text.split('•');
+    priceText = priceText.replace(/\s+/g, " ");
     cookingType = cookingType.replace(/\s+/g, " ");
-    price = price.substr(0, price.length-1);
+    priceText = priceText.substr(0, priceText.length-1);
+    const [bottom, _, top] = priceText.split(' ');
+    const price = { bottom, top };
     cookingType = cookingType.substr(0, cookingType.length);
     return { price, cookingType };
 }
@@ -132,6 +135,14 @@ const extractWebsiteUrl = cheerioData => {
  */
 const extractName = cheerioData => cheerioData['0'].children[0].data;
 
+
+/**
+ * Extract restaurant imageUrl 
+ * @param  {Object} cheerioData
+ * @return {string} representing url of restaurant img
+ */
+const extractImageUrl = cheerioData => cheerioData[0].attribs['data-image'];
+
 /**
  * Parse entire Restaurant page
  * @param  {Object} data
@@ -140,6 +151,7 @@ const extractName = cheerioData => cheerioData['0'].children[0].data;
 const parseRestaurant = data => {
     const $ = cheerio.load(data);
     const name = extractName($('.restaurant-details__heading--title'));
+    const imageUrl = extractImageUrl($('.masthead__gallery-image-item'));
     const locationContainer = $('.restaurant-details__heading--list > li');
     const locationKeys = Object.keys(locationContainer);
     let location = extractLocation(locationKeys, locationContainer);
@@ -151,6 +163,7 @@ const parseRestaurant = data => {
     const distinction = extractDistinction($('.restaurant-details__classification--list'));
     return {
         name, 
+        imageUrl,
         cookingType,
         distinction,
         websiteUrl,
@@ -178,10 +191,10 @@ const parseRestaurantsPage = async data => {
         const container = $(`div[data-index=${i}]`);
         const nameContainer = container['0'].children[3];
         const nameTag = nameContainer.children[3].children[1].children[0];
-        const restaurantUrl = `https://guide.michelin.com${nameTag.parent.attribs['href']}`;
-        console.log(restaurantUrl, i)
-        const restaurantData = await scrapeUrl(restaurantUrl, parseRestaurant);
-        restaurants.push(restaurantData)
+        const michelinUrl = `https://guide.michelin.com${nameTag.parent.attribs['href']}`;
+        console.log(michelinUrl, i);
+        const restaurantData = await scrapeUrl(michelinUrl, parseRestaurant);
+        restaurants.push({ ...restaurantData, michelinUrl })
     }
     return restaurants;
 }
@@ -199,7 +212,7 @@ const allRestaurants = async() => {
       if(pageRestaurants.length === 0)
           break
       restaurants = [...restaurants, ...pageRestaurants];
-    //   console.log(restaurants[restaurants.length-1], index)
+      console.log(restaurants[restaurants.length-1], index)
       index++;
   }
   return restaurants;
@@ -211,9 +224,9 @@ const allRestaurants = async() => {
  */
 const get = async() => {
   const totalRestaurants = await allRestaurants();
-  writeJson(totalRestaurants, "./server/allRestaurants.json");
+  writeJson(totalRestaurants, "./server/allRestaurantz.json");
   const bibRestaurants = totalRestaurants.filter(r => r.distinction.type === "BIB_GOURMAND");
-  writeJson(bibRestaurants, "./server/bibRestaurants.json");
+  writeJson(bibRestaurants, "./server/bibRestaurantz.json");
   return bibRestaurants;
 };
 

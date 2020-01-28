@@ -19,8 +19,16 @@ const writeJson = (data, filename) => {
     });
 }
 
+/**
+ * Reads json file to data arr
+ * @param  {string} filename
+ * @return  {Array} data
+ */
+const readJson = (filename) => JSON.parse(fs.readFileSync(filename, "utf8"));
+
 module.exports = {
     writeJson, 
+    readJson,
     extractTrimmed,
     extractText,
     extractTextTrimmed 
