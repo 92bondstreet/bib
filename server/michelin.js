@@ -226,11 +226,13 @@ const allRestaurants = async() => {
  * Get all France located Bib Gourmand restaurants
  * @return {Array} restaurants
  */
-const get = async() => {
+const get = async(withWrite=false) => {
   const totalRestaurants = await allRestaurants();
-  writeJson(totalRestaurants, "./server/allRestaurantz.json");
   const bibRestaurants = totalRestaurants.filter(r => r.distinction.type === "BIB_GOURMAND");
-  writeJson(bibRestaurants, "./server/bibRestaurantz.json");
+  if(withWrite){
+        writeJson(totalRestaurants, "./server/allRestaurants.json");
+        writeJson(bibRestaurants, "./server/bibRestaurants.json");
+  }
   return bibRestaurants;
 };
 

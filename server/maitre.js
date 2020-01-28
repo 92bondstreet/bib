@@ -95,9 +95,10 @@ const allRestaurants = async() => {
  * Get all France located Bib Gourmand restaurants
  * @return {Array} restaurants
  */
-const get = async() => {
+const get = async(withWrite=false) => {
   const totalRestaurants = await allRestaurants();
-  writeJson(totalRestaurants, "./server/maitreRestaurants.json");
+  if(withWrite)
+        writeJson(totalRestaurants, "./server/maitreRestaurants.json");
   return totalRestaurants;
 };
 

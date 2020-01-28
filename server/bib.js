@@ -2,8 +2,8 @@ const utils = require('./utils');
 const { readJson, writeJson } = utils;
 
 const THRESHOLD_NAME = 0.9;
-const THRESHOLD_PHONE = 0;
-const THRESHOLD_ADRESS = 0.9;
+const THRESHOLD_PHONE = 1;
+const THRESHOLD_ADRESS = 0.8;
 
 
 /**
@@ -104,16 +104,16 @@ const normalizeBibRestaurant = (name, phone, location) => {
 const getGoldenRestaurants = (bibRestaurants, maitreRestaurants) => {
     let results = [];
     bibRestaurants.forEach((bib_r, i) => {
-        console.log(i);
         const { name, phone, location } = bib_r;
         const { formattedBibName, formattedBibPhone, formattedBibAdress } = normalizeBibRestaurant(name, phone, location);
         for(let j = 0; j < maitreRestaurants.length; j++){
             const mai_r = maitreRestaurants[j];
             const { name, phone, location } = mai_r;
             const { formattedMaitreName, formattedMaitrePhone, formattedMaitreAdress } = normalizeMaitreRestaurant(name, phone, location);
-            if(distance(formattedBibName, formattedMaitreName) >= THRESHOLD_NAME
-            && (distance(formattedBibPhone, formattedMaitrePhone) >= THRESHOLD_PHONE
-            || distance(formattedBibAdress, formattedMaitreAdress) >= THRESHOLD_ADRESS)){
+            // if phone is the same, or address and name have respectively a 80% and 90% correspondance
+            if(distance(formattedBibPhone, formattedMaitrePhone) == THRESHOLD_PHONE
+            || (distance(formattedBibName, formattedMaitreName) >= THRESHOLD_NAME
+            && distance(formattedBibAdress, formattedMaitreAdress) >= THRESHOLD_ADRESS)){
                 results.push(bib_r)
                 break;
             }
@@ -126,11 +126,12 @@ const getGoldenRestaurants = (bibRestaurants, maitreRestaurants) => {
  * Get all France located Bib Gourmand restaurants and writes them to json file
  * @return {Array} restaurants
  */
-const get = async() => {
+const get = async(withWrite=false) => {
   const bibRestaurants = readJson("./server/bibRestaurants.json");
   const maitreRestaurants = readJson("./server/maitreRestaurants.json");
   const goldenRestaurants = getGoldenRestaurants(bibRestaurants, maitreRestaurants);
-  writeJson(goldenRestaurants, "./server/goldenRestaurants.json");
+  if(withWrite)
+        writeJson(goldenRestaurants, "./server/goldenRestaurants.json");
   return goldenRestaurants;
 };
 
