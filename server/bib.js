@@ -1,55 +1,9 @@
 const utils = require("./utils");
-const { readJson, writeJson, trimSpace } = utils;
+const { readJson, writeJson, trimSpace, distance } = utils;
 
 const THRESHOLD_NAME = 0.9;
 const THRESHOLD_PHONE = 1;
-const THRESHOLD_ADRESS = 0.8;
-
-/**
- * Computes an edit distance between two strings
- * @param {string} first string
- * @param {string} second string
- * @return {double} distance between s1 and s2
- */
-const editDistance = (s1, s2) => {
-  let costs = new Array();
-  for (let i = 0; i <= s1.length; i++) {
-    let lastValue = i;
-    for (let j = 0; j <= s2.length; j++) {
-      if (i == 0) costs[j] = j;
-      else {
-        if (j > 0) {
-          let newValue = costs[j - 1];
-          if (s1.charAt(i - 1) != s2.charAt(j - 1))
-            newValue = Math.min(Math.min(newValue, lastValue), costs[j]) + 1;
-          costs[j - 1] = lastValue;
-          lastValue = newValue;
-        }
-      }
-    }
-    if (i > 0) costs[s2.length] = lastValue;
-  }
-  return costs[s2.length];
-};
-/**
- * Evaluates a distance between two strings
- * @param {string} first string
- * @param {string} second string
- * @return {double} distance between the two strings
- */
-const distance = (s1, s2) => {
-  let longer = s1;
-  let shorter = s2;
-  if (s1.length < s2.length) {
-    longer = s2;
-    shorter = s1;
-  }
-  let longerLength = longer.length;
-  if (longerLength == 0) return 1.0;
-  return (
-    (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength)
-  );
-};
+const THRESHOLD_ADRESS = 0.7;
 
 /**
  * Return valid string if property is not defined
@@ -82,46 +36,48 @@ const normalizeMaitreRestaurant = (name, phone, location) => {
  * @param {Object} location
  * @return {Object} Formatted object
  */
-const normalizeBibRestaurant = (name, phone, location) => {
-  const formattedBibName = trimSpace(validate(name).toLowerCase());
-  let formattedBibPhone = validate(phone).substr(4, phone.length - 4);
-  formattedBibPhone = "0" + formattedBibPhone;
+const normalizeMichelinRestaurant = (name, phone, location) => {
+  const formattedMichName = trimSpace(validate(name).toLowerCase());
+  let formattedMichPhone = validate(phone).substr(4, phone.length - 4);
+  formattedMichPhone = "0" + formattedMichPhone;
   const { town: t, street: s, zipCode: z } = location;
   const town = trimSpace(validate(t).toLowerCase());
   const street = trimSpace(validate(s).toLowerCase());
   const zipCode = trimSpace(validate(z).toLowerCase());
-  const formattedBibAdress = town + street + zipCode;
-  return { formattedBibName, formattedBibPhone, formattedBibAdress };
+  const formattedMichAdress = town + street + zipCode;
+  return { formattedMichName, formattedMichPhone, formattedMichAdress };
 };
 
 /**
  * Get all France located Bib Gourmand restaurants
  * @return {Array} restaurants
  */
-const getGoldenRestaurants = (bibRestaurants, maitreRestaurants) => {
+const getGoldenRestaurants = (michelinRestaurants, maitreRestaurants) => {
   let results = [];
-  bibRestaurants.forEach(bib_r => {
-    const { name, phone, location } = bib_r;
+  michelinRestaurants.forEach(michelin_r => {
+    let { name, phone, location } = michelin_r;
     const {
-      formattedBibName,
-      formattedBibPhone,
-      formattedBibAdress
-    } = normalizeBibRestaurant(name, phone, location);
+      formattedMichName,
+      formattedMichPhone,
+      formattedMichAdress
+    } = normalizeMichelinRestaurant(name, phone, location);
     for (let j = 0; j < maitreRestaurants.length; j++) {
       const mai_r = maitreRestaurants[j];
-      const { name, phone, location } = mai_r;
+      let { name, phone, location } = mai_r;
       const {
         formattedMaitreName,
         formattedMaitrePhone,
         formattedMaitreAdress
       } = normalizeMaitreRestaurant(name, phone, location);
-      // if names have a 90% similitude, or phone are same, or address have a 80%
+      // if names have a 90% similitude, and phone are same, or address have a 80%
       if (
-        distance(formattedBibName, formattedMaitreName) >= THRESHOLD_NAME ||
-        distance(formattedBibPhone, formattedMaitrePhone) >= THRESHOLD_PHONE ||
-        distance(formattedBibAdress, formattedMaitreAdress) >= THRESHOLD_ADRESS
+        distance(formattedMichName, formattedMaitreName) >= THRESHOLD_NAME &&
+        (distance(formattedMichPhone, formattedMaitrePhone) >=
+          THRESHOLD_PHONE ||
+          distance(formattedMichAdress, formattedMaitreAdress) >=
+            THRESHOLD_ADRESS)
       ) {
-        results.push(bib_r);
+        results.push(michelin_r);
         break;
       }
     }
@@ -130,19 +86,19 @@ const getGoldenRestaurants = (bibRestaurants, maitreRestaurants) => {
 };
 
 /**
- * Get all France located Bib Gourmand restaurants and writes them to json file
- * @return {Array} restaurants
+ * Get all France located Michelin restaurants and writes themlet to json file
+ * @return {Array} Bib restaurants with Maitre Restaurateur distinction
  */
-const get = async (withWrite = false) => {
-  const bibRestaurants = readJson("./server/bibRestaurants.json");
+const get = async (withWrite = true) => {
+  const michelinRestaurants = readJson("./server/allRestaurants.json");
   const maitreRestaurants = readJson("./server/maitreRestaurants.json");
   const goldenRestaurants = getGoldenRestaurants(
-    bibRestaurants,
+    michelinRestaurants,
     maitreRestaurants
   );
   if (withWrite)
     writeJson(goldenRestaurants, "./server/goldenRestaurants.json");
-  return goldenRestaurants;
+  return goldenRestaurants.filter(r => r.distinction.type === "BIB_GOURMAND");
 };
 
 module.exports = {
