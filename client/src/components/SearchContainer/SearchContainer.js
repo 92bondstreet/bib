@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./SearchContainer.css";
 import chef_empty from "../../assets/empty_chef.png";
 import bib_maitre_logo from "../../assets/bib_maitre_logo.png";
@@ -15,6 +15,16 @@ import { Restaurant, SkeletonRestaurant } from "../Restaurant";
 import SearchInput from "../SearchInput";
 
 const SearchContainer = ({ filters, setFilters, loading, restaurants }) => {
+  const [viewportWidth, setViewportWidth] = useState(null);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setViewportWidth(document.documentElement.clientWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const renderLogo = () => (
     <div className="logo-container">
       <img
@@ -32,42 +42,50 @@ const SearchContainer = ({ filters, setFilters, loading, restaurants }) => {
     />
   );
 
+  const getFilterWidth = () => (viewportWidth > 920 ? "10vw" : "25vw");
+
   const renderFilters = () => (
     <div className="filters-container">
-      <Select
-        options={distinctionOptions}
-        value={filters.distinction}
-        placeholder={distinctionOptions[0].label}
-        isSearchable={false}
-        styles={selectStyles}
-        onChange={distinction =>
-          distinction !== filters.distinction &&
-          setFilters({
-            ...filters,
-            distinction
-          })
-        }
-      />
-      <Select
-        options={cookingOptions}
-        value={filters.cooking}
-        noOptionsMessage={() => "Aucun type de cuisine correspondant"}
-        placeholder={cookingOptions[0].label}
-        styles={selectStyles}
-        onChange={cooking =>
-          cooking !== filters.cooking && setFilters({ ...filters, cooking })
-        }
-      />
-      <Select
-        options={sortingOptions}
-        value={filters.sorting}
-        placeholder={sortingOptions[0].label}
-        isSearchable={false}
-        styles={selectStyles}
-        onChange={sorting =>
-          sorting !== filters.sorting && setFilters({ ...filters, sorting })
-        }
-      />
+      <div className="select-container">
+        <Select
+          options={distinctionOptions}
+          value={filters.distinction}
+          placeholder={distinctionOptions[0].label}
+          isSearchable={false}
+          styles={selectStyles(getFilterWidth())}
+          onChange={distinction =>
+            distinction !== filters.distinction &&
+            setFilters({
+              ...filters,
+              distinction
+            })
+          }
+        />
+      </div>
+      <div className="select-container">
+        <Select
+          options={cookingOptions}
+          value={filters.cooking}
+          noOptionsMessage={() => "Aucun type de cuisine correspondant"}
+          placeholder={cookingOptions[0].label}
+          styles={selectStyles(getFilterWidth())}
+          onChange={cooking =>
+            cooking !== filters.cooking && setFilters({ ...filters, cooking })
+          }
+        />
+      </div>
+      <div className="select-container">
+        <Select
+          options={sortingOptions}
+          value={filters.sorting}
+          placeholder={sortingOptions[0].label}
+          isSearchable={false}
+          styles={selectStyles(getFilterWidth())}
+          onChange={sorting =>
+            sorting !== filters.sorting && setFilters({ ...filters, sorting })
+          }
+        />
+      </div>
     </div>
   );
 

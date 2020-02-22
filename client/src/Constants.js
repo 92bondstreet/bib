@@ -90,15 +90,14 @@ const defaultOptions = {
   query: ""
 };
 
-const selectStyles = {
+const selectStyles = width => ({
   control: styles => ({
     ...styles,
-    width: "160px",
+    width,
     fontSize: "12px"
   }),
   input: styles => ({
     ...styles,
-    width: "200px",
     fontFamily: "Open Sans",
     fontSize: "12px"
   }),
@@ -113,7 +112,7 @@ const selectStyles = {
     fontSize: "12px"
   }),
   option: styles => ({ ...styles, fontFamily: "Open Sans", fontSize: "12px" })
-};
+});
 
 const defaultMapState = {
   viewport: {

@@ -18,3 +18,15 @@
   font-size: 24px;
   width: 100%;
 }
+
+@media only screen and (max-width: 940px) {
+  .search-input {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .search-input {
+    font-size: 16px;
+  }
+}

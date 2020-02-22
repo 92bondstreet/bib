@@ -18,7 +18,7 @@ const MapContainer = ({ userLocation, restaurants, setRestaurantsFocus }) => {
   const setViewportUser = () => {
     const viewport = {
       height: "100vh",
-      width: "60vw",
+      width: "100%",
       latitude: userLocation.lat,
       longitude: userLocation.long,
       zoom: 13
@@ -80,11 +80,19 @@ const MapContainer = ({ userLocation, restaurants, setRestaurantsFocus }) => {
   return (
     <div className="map-container">
       <ReactMapGL
+        className="mapboxgl-map"
         {...state.viewport}
         mapStyle="mapbox://styles/mapbox/outdoors-v11"
-        onViewportChange={viewport =>
-          setState({ ...state, viewport, userLocation })
-        }
+        onViewportChange={viewport => {
+          setState({
+            ...state,
+            viewport: {
+              ...state.viewport,
+              latitude: viewport.latitude,
+              longitude: viewport.longitude
+            }
+          });
+        }}
         mapboxApiAccessToken="pk.eyJ1IjoiYWxleHphamFjIiwiYSI6ImNrNnR2cTh1ZTAzODAzZXA3MTZrMG1vd2MifQ.b7r-Znl2mfjKgkeQDPF8tg"
       >
         {renderUserLocation()}

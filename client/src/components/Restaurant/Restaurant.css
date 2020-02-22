@@ -81,3 +81,72 @@ p {
   font-size: 12px;
   font-family: "Open Sans";
 }
+
+@media only screen and (max-width: 1280px) {
+  .picture-container {
+    height: 22vh;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .picture-container {
+    height: 18vh;
+  }
+  .primary-info {
+    font-size: 12px;
+  }
+  .secondary-info {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .picture-container {
+    height: 30vh;
+  }
+  .primary-info {
+    font-size: 20px;
+  }
+  .secondary-info {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .picture-container {
+    height: 24vh;
+  }
+  .primary-info {
+    font-size: 16px;
+  }
+  .secondary-info {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .picture-container {
+    height: 20vh;
+  }
+  .primary-info {
+    font-size: 14px;
+  }
+  .secondary-info {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .picture-container {
+    height: 18vh;
+  }
+  .primary-info {
+    font-size: 14px;
+  }
+  .secondary-info {
+    font-size: 10px;
+  }
+  .restaurant-container {
+    height: 25vh;
+  }
+}

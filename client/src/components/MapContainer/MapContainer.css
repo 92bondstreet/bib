@@ -1,6 +1,7 @@
 .map-container {
-  flex: 6;
+  width: 60vw;
   height: 100vh;
+  position: relative;
 }
 
 .container-user-marker {
@@ -56,4 +57,10 @@
   background-color: white;
   border-radius: 50%;
   z-index: 0;
+}
+
+@media only screen and (max-width: 920px) {
+  .map-container {
+    width: 100vw;
+  }
 }
