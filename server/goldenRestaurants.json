@@ -1,5 +1,6 @@
 [
     {
+        "_id": 0,
         "name": "Les Jardins du Léman",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/43416_pro_3.jpg",
         "cookingType": "Cuisine moderne",
@@ -20,9 +21,12 @@
             "town": "Yvoire",
             "zipCode": "74140"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/yvoire/restaurant/les-jardins-du-leman"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/yvoire/restaurant/les-jardins-du-leman",
+        "latitude": 46.3697548,
+        "longitude": 6.3272636
     },
     {
+        "_id": 1,
         "name": "Hostellerie de Levernois",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/920_pro_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -43,9 +47,12 @@
             "town": "Levernois",
             "zipCode": "21200"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/levernois/restaurant/hostellerie-de-levernois"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/levernois/restaurant/hostellerie-de-levernois",
+        "latitude": 46.9931892,
+        "longitude": 4.8760759
     },
     {
+        "_id": 2,
         "name": "Auberge du Cheval Blanc",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/4111_pro_1.jpg",
         "cookingType": "Cuisine créative",
@@ -66,9 +73,12 @@
             "town": "Lembach",
             "zipCode": "67510"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/lembach/restaurant/auberge-du-cheval-blanc4111"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/lembach/restaurant/auberge-du-cheval-blanc4111",
+        "latitude": 49.003404,
+        "longitude": 7.790589
     },
     {
+        "_id": 3,
         "name": "Le Manoir du Sphinx",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/12376_plat1_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -89,9 +99,12 @@
             "town": "Perros-Guirec",
             "zipCode": "22700"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/perros-guirec/restaurant/le-manoir-du-sphinx"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/perros-guirec/restaurant/le-manoir-du-sphinx",
+        "latitude": 48.8191385,
+        "longitude": -3.44134
     },
     {
+        "_id": 4,
         "name": "Assiette Champenoise",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/12567_pro_3.jpg",
         "cookingType": "Cuisine créative",
@@ -112,9 +125,12 @@
             "town": "à Tinqueux",
             "zipCode": "Reims"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/reims/restaurant/assiette-champenoise"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/reims/restaurant/assiette-champenoise",
+        "latitude": 49.24793105,
+        "longitude": 4.00310973865461
     },
     {
+        "_id": 5,
         "name": "Le Chalet",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/123050_pro_3.jpg",
         "cookingType": "Cuisine moderne",
@@ -135,9 +151,12 @@
             "town": "Ax-les-Thermes",
             "zipCode": "09110"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/ax-les-thermes/restaurant/le-chalet123050"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/ax-les-thermes/restaurant/le-chalet123050",
+        "latitude": 42.988401,
+        "longitude": 1.91247
     },
     {
+        "_id": 6,
         "name": "Le Bec au Cauchois",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9313_pro_5.jpg",
         "cookingType": "Cuisine créative",
@@ -158,9 +177,12 @@
             "town": "Valmont",
             "zipCode": "76540"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/valmont/restaurant/le-bec-au-cauchois"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/valmont/restaurant/le-bec-au-cauchois",
+        "latitude": 49.7466583,
+        "longitude": 0.5071487
     },
     {
+        "_id": 7,
         "name": "Au 14 Février",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/420131_pro_1.jpg",
         "cookingType": "Cuisine créative",
@@ -181,9 +203,12 @@
             "town": "Saint-Amour-Bellevue",
             "zipCode": "71570"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/saint-amour-bellevue/restaurant/au-14-fevrier420131"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/saint-amour-bellevue/restaurant/au-14-fevrier420131",
+        "latitude": 46.2418064,
+        "longitude": 4.7490698
     },
     {
+        "_id": 8,
         "name": "Entre Vigne et Garrigue",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/236497_pro_5.jpg",
         "cookingType": "Cuisine moderne",
@@ -204,9 +229,12 @@
             "town": "Pujaut",
             "zipCode": "30131"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/pujaut/restaurant/entre-vigne-et-garrigue"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/pujaut/restaurant/entre-vigne-et-garrigue",
+        "latitude": 44.253382,
+        "longitude": 4.594759
     },
     {
+        "_id": 9,
         "name": "Auberge de la Rivière",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3242_pro_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -227,9 +255,12 @@
             "town": "Velluire",
             "zipCode": "85770"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/pays-de-la-loire/velluire/restaurant/auberge-de-la-riviere"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/pays-de-la-loire/velluire/restaurant/auberge-de-la-riviere",
+        "latitude": 46.4058816,
+        "longitude": -0.8931123
     },
     {
+        "_id": 10,
         "name": "Alexandre",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5487_int2_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -250,9 +281,12 @@
             "town": "Garons",
             "zipCode": "30128"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/garons/restaurant/alexandre"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/garons/restaurant/alexandre",
+        "latitude": 43.7697552,
+        "longitude": 4.4260094
     },
     {
+        "_id": 11,
         "name": "Les Canailles Ménilmontant",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/540782_pro_1.jpg",
         "cookingType": "Cuisine traditionnelle",
@@ -273,9 +307,12 @@
             "town": "Paris",
             "zipCode": "75020"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/les-canailles-menilmontant"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/les-canailles-menilmontant",
+        "latitude": 48.8666042,
+        "longitude": 2.3853196
     },
     {
+        "_id": 12,
         "name": "La Closerie des Roses",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9358_ZMR_001.jpg",
         "cookingType": "Cuisine classique",
@@ -296,9 +333,12 @@
             "town": "Varades",
             "zipCode": "44370"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/pays-de-la-loire/varades/restaurant/la-closerie-des-roses"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/pays-de-la-loire/varades/restaurant/la-closerie-des-roses",
+        "latitude": 47.371319,
+        "longitude": -1.021998
     },
     {
+        "_id": 13,
         "name": "Aux Terrasses",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9032_int8_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -319,9 +359,12 @@
             "town": "Tournus",
             "zipCode": "71700"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/tournus/restaurant/aux-terrasses"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/tournus/restaurant/aux-terrasses",
+        "latitude": 46.5590547,
+        "longitude": 4.9143174
     },
     {
+        "_id": 14,
         "name": "Au Chapeau Rouge",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2176_plat1_1.jpg",
         "cookingType": "Cuisine du terroir",
@@ -342,9 +385,12 @@
             "town": "Chinon",
             "zipCode": "37500"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/chinon/restaurant/au-chapeau-rouge"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/chinon/restaurant/au-chapeau-rouge",
+        "latitude": 47.1672917,
+        "longitude": 0.2403502
     },
     {
+        "_id": 15,
         "name": "Maison Gambert",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/508654_pro_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -365,9 +411,12 @@
             "town": "Tain-l'Hermitage",
             "zipCode": "26600"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/tain-l-hermitage/restaurant/maison-gambert"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/tain-l-hermitage/restaurant/maison-gambert",
+        "latitude": 45.063253,
+        "longitude": 4.855942
     },
     {
+        "_id": 16,
         "name": "L'Embellie",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/8305_pro_6.jpg",
         "cookingType": "Cuisine moderne",
@@ -388,9 +437,12 @@
             "town": "Sainte-Cécile",
             "zipCode": "71250"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/sainte-ccile/restaurant/l-embellie8305"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/sainte-ccile/restaurant/l-embellie8305",
+        "latitude": 46.3887863,
+        "longitude": 4.6206732
     },
     {
+        "_id": 17,
         "name": "Auberge de l'Île",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3774_pro_3.jpg",
         "cookingType": "Cuisine moderne",
@@ -411,9 +463,12 @@
             "town": "L'Île-Bouchard",
             "zipCode": "37220"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/l-le-bouchard/restaurant/auberge-de-l-ile"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/l-le-bouchard/restaurant/auberge-de-l-ile",
+        "latitude": 47.1200869,
+        "longitude": 0.425572
     },
     {
+        "_id": 18,
         "name": "La Table",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/63544_pro_5.jpg",
         "cookingType": "Cuisine moderne",
@@ -434,9 +489,12 @@
             "town": "Les Ribas",
             "zipCode": "Tourtour"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/tourtour/restaurant/la-table63544"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/tourtour/restaurant/la-table63544",
+        "latitude": 43.405837,
+        "longitude": 6.063326
     },
     {
+        "_id": 19,
         "name": "Comptoir des Voyageurs",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/476295_pro_4.jpg",
         "cookingType": "Cuisine moderne",
@@ -457,9 +515,12 @@
             "town": "Locronan",
             "zipCode": "29180"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/locronan/restaurant/comptoir-des-voyageurs"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/locronan/restaurant/comptoir-des-voyageurs",
+        "latitude": 48.0983695,
+        "longitude": -4.2082939
     },
     {
+        "_id": 20,
         "name": "Le Fanal",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/738_pro_16.jpg",
         "cookingType": "Cuisine moderne",
@@ -480,9 +541,12 @@
             "town": "Banyuls-sur-Mer",
             "zipCode": "66650"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/banyuls-sur-mer/restaurant/le-fanal"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/banyuls-sur-mer/restaurant/le-fanal",
+        "latitude": 42.526817,
+        "longitude": 3.084457
     },
     {
+        "_id": 21,
         "name": "Loiseau Rive Gauche",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/6000_pro_14.jpg",
         "cookingType": "Cuisine créative",
@@ -503,9 +567,12 @@
             "town": "Paris",
             "zipCode": "75007"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/loiseau-rive-gauche"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/loiseau-rive-gauche",
+        "latitude": 48.8600405,
+        "longitude": 2.3182935
     },
     {
+        "_id": 22,
         "name": "Auberge de Ti-Coz",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/7231_pro_13.jpg",
         "cookingType": "Cuisine moderne",
@@ -526,9 +593,12 @@
             "town": "Ty-Sanquer",
             "zipCode": "29000"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/ty-sanquer/restaurant/auberge-de-ti-coz"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/ty-sanquer/restaurant/auberge-de-ti-coz",
+        "latitude": 48.35748,
+        "longitude": -3.995185
     },
     {
+        "_id": 23,
         "name": "Voyages des sens",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/504521_001.jpg",
         "cookingType": "Cuisine moderne",
@@ -549,9 +619,12 @@
             "town": "Treffort",
             "zipCode": "01370"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/treffort/restaurant/voyages-des-sens"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/treffort/restaurant/voyages-des-sens",
+        "latitude": 44.934793,
+        "longitude": 5.860242
     },
     {
+        "_id": 24,
         "name": "La Fleur de Sel",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/121851_pro_7.jpg",
         "cookingType": "Cuisine moderne",
@@ -572,9 +645,12 @@
             "town": "Cevins",
             "zipCode": "73730"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/cevins/restaurant/la-fleur-de-sel121851"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/cevins/restaurant/la-fleur-de-sel121851",
+        "latitude": 45.840862,
+        "longitude": 6.721614
     },
     {
+        "_id": 25,
         "name": "La Marine",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3780_003.jpg",
         "cookingType": "Cuisine créative",
@@ -595,9 +671,12 @@
             "town": "L'Herbaudière",
             "zipCode": "85330"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/pays-de-la-loire/l-herbaudire/restaurant/la-marine3780"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/pays-de-la-loire/l-herbaudire/restaurant/la-marine3780",
+        "latitude": 47.0237321,
+        "longitude": -2.2999204
     },
     {
+        "_id": 26,
         "name": "Ttotta",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/371122_pro_3.jpg",
         "cookingType": "Cuisine moderne",
@@ -618,9 +697,12 @@
             "town": "Saint-Pée-sur-Nivelle",
             "zipCode": "64310"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/saint-pe-sur-nivelle/restaurant/ttotta"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/saint-pe-sur-nivelle/restaurant/ttotta",
+        "latitude": 43.499205,
+        "longitude": -1.455709
     },
     {
+        "_id": 27,
         "name": "Hôtel de France",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5012_pro_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -641,9 +723,12 @@
             "town": "Montmarault",
             "zipCode": "03390"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/montmarault/restaurant/hotel-de-france5012"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/montmarault/restaurant/hotel-de-france5012",
+        "latitude": 46.3190073,
+        "longitude": 2.9557643
     },
     {
+        "_id": 28,
         "name": "Le Vivier",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3857_pro_3.jpg",
         "cookingType": "Cuisine moderne",
@@ -664,9 +749,12 @@
             "town": "L'Isle-sur-la-Sorgue",
             "zipCode": "84800"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/l-isle-sur-la-sorgue/restaurant/le-vivier3857"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/l-isle-sur-la-sorgue/restaurant/le-vivier3857",
+        "latitude": 43.9255006,
+        "longitude": 5.06364511997534
     },
     {
+        "_id": 29,
         "name": "La Table de Nans",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/423659_plat2_1.jpg",
         "cookingType": "Cuisine méditerranéenne",
@@ -687,9 +775,12 @@
             "town": "La Ciotat",
             "zipCode": "13600"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/la-ciotat/restaurant/la-table-de-nans"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/la-ciotat/restaurant/la-table-de-nans",
+        "latitude": 43.1851212,
+        "longitude": 5.6617803
     },
     {
+        "_id": 30,
         "name": "La Table de Léo",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/440607_pro_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -710,9 +801,12 @@
             "town": "Saint-Avit-Sénieur",
             "zipCode": "24440"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/saint-avit-snieur/restaurant/la-table-de-leo"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/saint-avit-snieur/restaurant/la-table-de-leo",
+        "latitude": 44.7742854,
+        "longitude": 0.8161649
     },
     {
+        "_id": 31,
         "name": "Chez Michel",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/122764_001.jpg",
         "cookingType": "Cuisine traditionnelle",
@@ -733,9 +827,12 @@
             "town": "Paris",
             "zipCode": "75010"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/chez-michel"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/chez-michel",
+        "latitude": 48.8795224,
+        "longitude": 2.3522417
     },
     {
+        "_id": 32,
         "name": "La Ruche",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1183528_pro_2.jpg",
         "cookingType": "Cuisine moderne",
@@ -756,9 +853,12 @@
             "town": "Saint-Péray",
             "zipCode": "07130"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/saint-pray/restaurant/la-ruche"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/saint-pray/restaurant/la-ruche",
+        "latitude": 44.943518,
+        "longitude": 4.8413543
     },
     {
+        "_id": 33,
         "name": "O'Plaisir des Sens",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/495710_pro_2.jpg",
         "cookingType": "Cuisine moderne",
@@ -779,9 +879,12 @@
             "town": "La Roque-Gageac",
             "zipCode": "24250"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/la-roque-gageac/restaurant/o-plaisir-des-sens"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/la-roque-gageac/restaurant/o-plaisir-des-sens",
+        "latitude": 44.82513,
+        "longitude": 1.18343
     },
     {
+        "_id": 34,
         "name": "Auberge des Deux Magots",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/465592_plat1_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -802,9 +905,12 @@
             "town": "La Roche-Bernard",
             "zipCode": "56130"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/la-roche-bernard/restaurant/auberge-des-deux-magots"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/la-roche-bernard/restaurant/auberge-des-deux-magots",
+        "latitude": 47.51837315,
+        "longitude": -2.30275974071746
     },
     {
+        "_id": 35,
         "name": "L'Épicurien",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/66531_pro_2.jpg",
         "cookingType": "Cuisine moderne",
@@ -825,9 +931,12 @@
             "town": "Albi",
             "zipCode": "81000"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/albi/restaurant/l-epicurien66531"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/albi/restaurant/l-epicurien66531",
+        "latitude": 43.9246092,
+        "longitude": 2.14905394819156
     },
     {
+        "_id": 36,
         "name": "Auberge Pyrénées Cévennes",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5836_pro_2.jpg",
         "cookingType": "Cuisine traditionnelle",
@@ -848,9 +957,12 @@
             "town": "Paris",
             "zipCode": "75011"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/auberge-pyrenees-cevennes"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/auberge-pyrenees-cevennes",
+        "latitude": 48.86785,
+        "longitude": 2.368775
     },
     {
+        "_id": 37,
         "name": "Château de Sully",
         "imageUrl": "https://static.pxlecdn.com/photos/317241957/original/39179d85030150f9b265.jpg",
         "cookingType": "Cuisine moderne",
@@ -871,9 +983,12 @@
             "town": "Bayeux",
             "zipCode": "14400"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/bayeux/restaurant/chateau-de-sully"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/bayeux/restaurant/chateau-de-sully",
+        "latitude": 49.3351303,
+        "longitude": -0.7045966
     },
     {
+        "_id": 38,
         "name": "Le Rabelais",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/7758_013.jpg",
         "cookingType": "Cuisine moderne",
@@ -894,9 +1009,12 @@
             "town": "Saint-Chamas",
             "zipCode": "13250"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/saint-chamas/restaurant/le-rabelais"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/saint-chamas/restaurant/le-rabelais",
+        "latitude": 43.5503794,
+        "longitude": 5.0318745
     },
     {
+        "_id": 39,
         "name": "L'O des Vignes",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3319_plat1_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -917,9 +1035,12 @@
             "town": "Fuissé",
             "zipCode": "71960"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/fuiss/restaurant/l-o-des-vignes"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/fuiss/restaurant/l-o-des-vignes",
+        "latitude": 46.2800313,
+        "longitude": 4.7436176
     },
     {
+        "_id": 40,
         "name": "Le Manoir du Lys",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/10110_pro_10.jpg",
         "cookingType": "Cuisine moderne",
@@ -940,9 +1061,12 @@
             "town": "Bagnoles-de-l'Orne",
             "zipCode": "61140"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/bagnoles-de-l-orne/restaurant/le-manoir-du-lys"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/bagnoles-de-l-orne/restaurant/le-manoir-du-lys",
+        "latitude": 48.5611401,
+        "longitude": -0.4302301
     },
     {
+        "_id": 41,
         "name": "Maximin Hellio",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/495886_pro_11.jpg",
         "cookingType": "Cuisine moderne",
@@ -963,9 +1087,12 @@
             "town": "Deauville",
             "zipCode": "14800"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/deauville/restaurant/maximin-hellio"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/deauville/restaurant/maximin-hellio",
+        "latitude": 49.359576,
+        "longitude": 0.0772786
     },
     {
+        "_id": 42,
         "name": "Auberge du Vieux Puits",
         "imageUrl": "https://static.pxlecdn.com/photos/308583633/original/6c466565816515e3aae1.jpg",
         "cookingType": "Cuisine créative",
@@ -986,9 +1113,12 @@
             "town": "Fontjoncouse",
             "zipCode": "11360"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/fontjoncouse/restaurant/auberge-du-vieux-puits"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/fontjoncouse/restaurant/auberge-du-vieux-puits",
+        "latitude": 43.04752,
+        "longitude": 2.78859
     },
     {
+        "_id": 43,
         "name": "Le Réciproque",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/502941_pro_3.jpg",
         "cookingType": "Cuisine traditionnelle",
@@ -1009,9 +1139,12 @@
             "town": "Paris",
             "zipCode": "75018"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/le-reciproque"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/le-reciproque",
+        "latitude": 48.8916389,
+        "longitude": 2.3461087
     },
     {
+        "_id": 44,
         "name": "Le Lancelot",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2173_pro_6.jpg",
         "cookingType": "Cuisine moderne",
@@ -1032,9 +1165,12 @@
             "town": "Chilleurs-aux-Bois",
             "zipCode": "45170"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/chilleurs-aux-bois/restaurant/le-lancelot"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/chilleurs-aux-bois/restaurant/le-lancelot",
+        "latitude": 48.0711341,
+        "longitude": 2.1348537
     },
     {
+        "_id": 45,
         "name": "La Nouvelle Auberge",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5207_pro_21.jpg",
         "cookingType": "Cuisine moderne",
@@ -1055,9 +1191,12 @@
             "town": "Wihr-au-Val",
             "zipCode": "68230"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/wihr-au-val/restaurant/la-nouvelle-auberge"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/wihr-au-val/restaurant/la-nouvelle-auberge",
+        "latitude": 48.046426,
+        "longitude": 7.208503
     },
     {
+        "_id": 46,
         "name": "Le Carré d'Alethius",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/286092_pro_6.jpg",
         "cookingType": "Cuisine moderne",
@@ -1078,9 +1217,12 @@
             "town": "Charmes-sur-Rhône",
             "zipCode": "07800"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/charmes-sur-rhne/restaurant/le-carre-d-alethius"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/charmes-sur-rhne/restaurant/le-carre-d-alethius",
+        "latitude": 44.8614606,
+        "longitude": 4.8330299
     },
     {
+        "_id": 47,
         "name": "Coteaux et Fourchettes",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/305304_pro_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -1101,9 +1243,12 @@
             "town": "Cairanne",
             "zipCode": "84290"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/cairanne/restaurant/coteaux-et-fourchettes"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/cairanne/restaurant/coteaux-et-fourchettes",
+        "latitude": 44.008781,
+        "longitude": 5.228533
     },
     {
+        "_id": 48,
         "name": "Auberge des Chenêts",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/616_pro_3.jpg",
         "cookingType": "Cuisine traditionnelle",
@@ -1124,9 +1269,12 @@
             "town": "Valloux",
             "zipCode": "89200"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/valloux/restaurant/auberge-des-chenets"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/valloux/restaurant/auberge-des-chenets",
+        "latitude": 47.5321204,
+        "longitude": 3.7954083
     },
     {
+        "_id": 49,
         "name": "La Table du Gourmet",
         "imageUrl": "https://static.pxlecdn.com/photos/226099219/original/7c1f58e9fca1c3df665c.jpg",
         "cookingType": "Cuisine créative",
@@ -1147,9 +1295,12 @@
             "town": "Riquewihr",
             "zipCode": "68340"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/riquewihr/restaurant/la-table-du-gourmet"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/riquewihr/restaurant/la-table-du-gourmet",
+        "latitude": null,
+        "longitude": null
     },
     {
+        "_id": 50,
         "name": "L'Oustau de Baumanière",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/815_pro_32.jpg",
         "cookingType": "Cuisine moderne",
@@ -1170,9 +1321,12 @@
             "town": "Les Baux-de-Provence",
             "zipCode": "13520"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/les-baux-de-provence/restaurant/l-oustau-de-baumaniere"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/les-baux-de-provence/restaurant/l-oustau-de-baumaniere",
+        "latitude": 43.78852,
+        "longitude": 4.7682
     },
     {
+        "_id": 51,
         "name": "La Griotte",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/197827_pro_10.jpg",
         "cookingType": "Cuisine traditionnelle",
@@ -1193,9 +1347,12 @@
             "town": "Saules",
             "zipCode": "25580"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/saules/restaurant/la-griotte"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/saules/restaurant/la-griotte",
+        "latitude": 47.1239877,
+        "longitude": 6.1994368
     },
     {
+        "_id": 52,
         "name": "La Maison",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/515197_pro_5.jpg",
         "cookingType": "Cuisine moderne",
@@ -1216,9 +1373,12 @@
             "town": "Cognac",
             "zipCode": "16100"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/cognac/restaurant/la-maison"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/cognac/restaurant/la-maison",
+        "latitude": 45.6929674,
+        "longitude": -0.325792
     },
     {
+        "_id": 53,
         "name": "Pomze",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/371410_plat1_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -1239,9 +1399,12 @@
             "town": "Paris",
             "zipCode": "75008"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/pomze"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/pomze",
+        "latitude": 48.8744634,
+        "longitude": 2.3207611
     },
     {
+        "_id": 54,
         "name": "Michel Sarran",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/8963_plat1_1.jpg",
         "cookingType": "Cuisine créative",
@@ -1262,9 +1425,12 @@
             "town": "Toulouse",
             "zipCode": "31000"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/toulouse/restaurant/michel-sarran"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/toulouse/restaurant/michel-sarran",
+        "latitude": 43.607279,
+        "longitude": 1.4346103
     },
     {
+        "_id": 55,
         "name": "La Merise",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/518257_pro_19.jpg",
         "cookingType": "Cuisine moderne",
@@ -1285,9 +1451,12 @@
             "town": "Laubach",
             "zipCode": "67580"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/laubach/restaurant/la-merise"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/laubach/restaurant/la-merise",
+        "latitude": 48.8796379,
+        "longitude": 7.7226143
     },
     {
+        "_id": 56,
         "name": "L'Auberge des Glazicks",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/6993_pro_12.jpg",
         "cookingType": "Cuisine créative",
@@ -1308,9 +1477,12 @@
             "town": "Plomodiern",
             "zipCode": "29550"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/plomodiern/restaurant/l-auberge-des-glazicks"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/plomodiern/restaurant/l-auberge-des-glazicks",
+        "latitude": 48.1749249,
+        "longitude": -4.2486752
     },
     {
+        "_id": 57,
         "name": "Histoire Ancienne",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1558_pro_8.jpg",
         "cookingType": "Cuisine traditionnelle",
@@ -1331,9 +1503,12 @@
             "town": "Calais",
             "zipCode": "62100"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/hauts-de-france/calais/restaurant/histoire-ancienne"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/hauts-de-france/calais/restaurant/histoire-ancienne",
+        "latitude": 50.9565461,
+        "longitude": 1.8498621
     },
     {
+        "_id": 58,
         "name": "Au Colombier",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/172869_pro_2.jpg",
         "cookingType": "Cuisine moderne",
@@ -1354,9 +1529,12 @@
             "town": "Anse",
             "zipCode": "69480"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/anse/restaurant/au-colombier"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/anse/restaurant/au-colombier",
+        "latitude": 50.6623,
+        "longitude": 5.52029
     },
     {
+        "_id": 59,
         "name": "L'Arum",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1000375_pro_12.jpg",
         "cookingType": "Cuisine moderne",
@@ -1377,9 +1555,12 @@
             "town": "Hyères",
             "zipCode": "83400"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/hyres/restaurant/l-arum"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/hyres/restaurant/l-arum",
+        "latitude": 43.1202356,
+        "longitude": 6.1312856
     },
     {
+        "_id": 60,
         "name": "Manoir de la Pommeraie",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9609_pro_2.jpg",
         "cookingType": "Cuisine moderne",
@@ -1400,9 +1581,12 @@
             "town": "Vire",
             "zipCode": "14500"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/vire/restaurant/manoir-de-la-pommeraie"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/vire/restaurant/manoir-de-la-pommeraie",
+        "latitude": 48.829763,
+        "longitude": -0.8611182
     },
     {
+        "_id": 61,
         "name": "La Bonne Étape",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/10673_pro_4.jpg",
         "cookingType": "Cuisine provençale",
@@ -1423,9 +1607,12 @@
             "town": "Château-Arnoux",
             "zipCode": "04600"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/chteau-arnoux/restaurant/la-bonne-etape"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/chteau-arnoux/restaurant/la-bonne-etape",
+        "latitude": 44.0937597,
+        "longitude": 6.0110039
     },
     {
+        "_id": 62,
         "name": "Les Épices Curiens",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/254219_pro_12.jpg",
         "cookingType": "Cuisine moderne",
@@ -1446,9 +1633,12 @@
             "town": "Écouviez",
             "zipCode": "55600"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/couviez/restaurant/les-epices-curiens"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/grand-est/couviez/restaurant/les-epices-curiens",
+        "latitude": 49.524716,
+        "longitude": 5.456803
     },
     {
+        "_id": 63,
         "name": "M Restaurant",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/235634_ZMR_001.jpg",
         "cookingType": "Cuisine du marché",
@@ -1469,9 +1659,12 @@
             "town": "Lyon",
             "zipCode": "69006"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/lyon/restaurant/m-restaurant"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/lyon/restaurant/m-restaurant",
+        "latitude": 45.692416,
+        "longitude": 4.789791
     },
     {
+        "_id": 64,
         "name": "Le Dauphin",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/10467_ZMR_001.jpg",
         "cookingType": "Cuisine moderne",
@@ -1492,9 +1685,12 @@
             "town": "Caen",
             "zipCode": "14000"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/caen/restaurant/le-dauphin10467"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/normandie/caen/restaurant/le-dauphin10467",
+        "latitude": 49.1845268,
+        "longitude": -0.3648449
     },
     {
+        "_id": 65,
         "name": "La Maison Carrier",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1944_pro_1.jpg",
         "cookingType": "Cuisine régionale",
@@ -1515,9 +1711,12 @@
             "town": "Chamonix-Mont-Blanc",
             "zipCode": "74400"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/chamonix-mont-blanc/restaurant/la-maison-carrier"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/chamonix-mont-blanc/restaurant/la-maison-carrier",
+        "latitude": 45.939703,
+        "longitude": 6.8879072
     },
     {
+        "_id": 66,
         "name": "Les Capucins",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/10228_ZMR_001.jpg",
         "cookingType": "Cuisine moderne",
@@ -1538,9 +1737,12 @@
             "town": "Belfort",
             "zipCode": "90000"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/belfort/restaurant/les-capucins"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/belfort/restaurant/les-capucins",
+        "latitude": 47.6356687,
+        "longitude": 6.8575049
     },
     {
+        "_id": 67,
         "name": "La Table d'Aimé",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/261681_ZMR_001.jpg",
         "cookingType": "Cuisine moderne",
@@ -1561,9 +1763,12 @@
             "town": "Rivesaltes",
             "zipCode": "66600"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/rivesaltes/restaurant/la-table-d-aime"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/occitanie/rivesaltes/restaurant/la-table-d-aime",
+        "latitude": 42.7701248,
+        "longitude": 2.8776441
     },
     {
+        "_id": 68,
         "name": "L'Arche de Meslay",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9064_pro_1.jpg",
         "cookingType": "Cuisine moderne",
@@ -1584,9 +1789,12 @@
             "town": "Parçay-Meslay",
             "zipCode": "37210"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/paray-meslay/restaurant/l-arche-de-meslay"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/centre-val-de-loire/paray-meslay/restaurant/l-arche-de-meslay",
+        "latitude": 47.4376272,
+        "longitude": 0.7128845
     },
     {
+        "_id": 69,
         "name": "Ar Maen Hir",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1024395_pro_3.jpg",
         "cookingType": "Cuisine moderne",
@@ -1607,9 +1815,12 @@
             "town": "Locronan",
             "zipCode": "29180"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/locronan/restaurant/ar-maen-hir"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/bretagne/locronan/restaurant/ar-maen-hir",
+        "latitude": 48.09776,
+        "longitude": -4.2112796
     },
     {
+        "_id": 70,
         "name": "Auberge des Saints Pères",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/6551_plat2_1.jpg",
         "cookingType": "Cuisine créative",
@@ -1630,9 +1841,12 @@
             "town": "Aulnay-sous-Bois",
             "zipCode": "93600"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/aulnay-sous-bois/restaurant/auberge-des-saints-peres"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/ile-de-france/aulnay-sous-bois/restaurant/auberge-des-saints-peres",
+        "latitude": 48.9244135,
+        "longitude": 2.48984591579338
     },
     {
+        "_id": 71,
         "name": "La Chassagnette",
         "imageUrl": "https://static.pxlecdn.com/photos/219618910/original/1b8410fd888851eb2ad3.jpg",
         "cookingType": "Cuisine moderne",
@@ -1653,9 +1867,12 @@
             "town": "Arles",
             "zipCode": "13200"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/arles/restaurant/la-chassagnette"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/arles/restaurant/la-chassagnette",
+        "latitude": 43.5433064,
+        "longitude": 4.72343835894868
     },
     {
+        "_id": 72,
         "name": "Le Clos des Sens",
         "imageUrl": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/324_ter8_1.jpg",
         "cookingType": "Cuisine créative",
@@ -1676,6 +1893,8 @@
             "town": "Annecy",
             "zipCode": "74940"
         },
-        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/annecy/restaurant/le-clos-des-sens"
+        "michelinUrl": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/annecy/restaurant/le-clos-des-sens",
+        "latitude": 45.9185159,
+        "longitude": 6.1436455
     }
 ]

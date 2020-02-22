@@ -36,9 +36,20 @@ const filterRestaurants = (restaurant, distinction, cooking, query) => {
  * @param  {string} sorting criteria
  * @return {number} how r1 is positionned relative to r2
  */
-const sortRestaurants = (r1, r2, sortingFilter) => {
-  if (sortingFilter === "Trier par distance") {
-    return 1;
+const sortRestaurants = (r1, r2, sortingFilter, userLocation) => {
+  if (sortingFilter === "Trier par distance" && userLocation) {
+    const { lat, long } = userLocation;
+    const { latitude: latitude1, longitude: longitude1 } = r1 || {};
+    if (latitude1 === null || longitude1 === null) return 1;
+    const { latitude: latitude2, longitude: longitude2 } = r2 || {};
+    if (latitude2 === null || longitude2 === null) return -1;
+    const d1 = Math.sqrt(
+      Math.pow(latitude1 - lat, 2) + Math.pow(longitude1 - long, 2)
+    );
+    const d2 = Math.sqrt(
+      Math.pow(latitude2 - lat, 2) + Math.pow(longitude2 - long, 2)
+    );
+    return d1 > d2 ? 1 : -1;
   }
   if (sortingFilter === "Trier par note décroissante") {
     const { rating: rating1 } = r1;
@@ -79,6 +90,7 @@ app.post("/restaurants", (req, res) => {
     distinction: { value: distinctionValue },
     cooking: { value: cookingValue },
     sorting: { value: sortingValue },
+    userLocation,
     query
   } = req.body;
   const allRestaurants = JSON.parse(
@@ -87,7 +99,9 @@ app.post("/restaurants", (req, res) => {
   const filteredRestaurants = allRestaurants.filter(restaurant =>
     filterRestaurants(restaurant, distinctionValue, cookingValue, query)
   );
-  filteredRestaurants.sort((a, b) => sortRestaurants(a, b, sortingValue));
+  filteredRestaurants.sort((a, b) =>
+    sortRestaurants(a, b, sortingValue, userLocation)
+  );
   res.send(JSON.stringify(filteredRestaurants));
 });
 
